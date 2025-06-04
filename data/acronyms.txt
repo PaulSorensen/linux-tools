@@ -41,6 +41,7 @@ FQDN
 FTP
 FTPS
 GDPR
+GNOME
 GPU
 GRUB
 GUI
@@ -58,6 +59,8 @@ IO
 IP
 IPFS
 IPMI
+iOS
+ISO
 ISP
 IT
 IaC
@@ -98,7 +101,7 @@ PSU
 PWA
 PXE
 PaaS
-QUEMU
+QEMU
 QoS
 RAID
 RAM
@@ -169,3 +172,34 @@ OnlyOffice
 WebDav
 KTorrent
 VLC
+NordVPN
+VSCode
+VS Code
+VSCodium
+VS Codium
+GIMP
+BorgBackup
+MarkText
+OCI
+NGINX
+CGI
+ASP
+.NET
+PostgreSQL
+AWX
+DBeaver
+AlmaLinux
+CoolerControl
+GParted
+SystemRescue
+TestDisk
+KDE
+BalenaEtcher
+WireGuard
+NetBird
+FreeBSD
+pfSense
+TrueNAS
+ParrotOS
+PiVPN
+DietPi

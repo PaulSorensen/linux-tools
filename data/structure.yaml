@@ -1,0 +1,88 @@
+🖥️ Desktop Tools:
+  order: 1
+  categories:
+    - name: Backup
+      order:
+    - name: Cloud Storage
+      order:
+    - name: Browsers
+      order:
+    - name: Download Managers
+      order:
+    - name: Messaging
+      order:
+    - name: Multimedia
+      order:
+    - name: Imaging
+      order:
+    - name: Office and Productivity
+      order:
+    - name: VPN
+      order:
+    - name: Development
+      order:
+    - name: Shell
+      order:
+    - name: File Transfer
+      order:
+    - name: System Utilities
+      order:
+    - name: Gaming
+      order:
+    - name: Fan, Sensors & RGB
+      order:
+    - name: Application Launchers
+      order:
+    - name: System Info
+      order:
+    - name: Recovery
+      order:
+    - name: Media Creation
+      order:
+    - name: Networking
+      order:
+🛢️ Server Tools:
+  order: 2
+  categories:
+    - name: Virtualization
+      order:
+    - name: System Management
+      order:
+    - name: Automation
+      order:
+    - name: Monitoring
+      order:
+    - name: DNS
+      order:
+    - name: Containerization
+      order:
+    - name: Web & Proxy
+      order:
+    - name: Database
+      order:
+    - name: Database Management
+      order:
+    - name: Media
+      order:
+    - name: VPN
+      order:
+💿 Distributions:
+  order: 4
+  categories:
+    - name: General Purpose
+      order: 1
+    - name: Enterprise
+      order: 3
+    - name: Lightweight
+      order: 2
+    - name: Appliance OS
+      order: 5
+    - name: Unix-like
+      order: 6
+    - name: Security-focused
+      order: 4
+🛠️ Bootable Tools:
+  order: 3
+  categories:
+    - name: Rescue
+      order:
