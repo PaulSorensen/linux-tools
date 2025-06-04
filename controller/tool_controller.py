@@ -68,7 +68,7 @@ class ToolController:
             print("Enter tool details:")
             print()
 
-            title = DataHelper.title_case(input("Title: ").strip())
+            title = DataHelper.capitalize_all(input("Title: ").strip())
             if not title:
                 print()
                 print(PromptHelper.invalid_input())

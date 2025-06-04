@@ -52,7 +52,8 @@ To organize the list I've built a CLI application in Python, which is included i
 
 ### Data Handling
 
-- **Section names, category names, and tool titles** are sanitized to title case, preserving minor words ("and", "or", "the", etc.), and acronyms.
+- **Section names and category names** are sanitized to title case, keeping minor words (like "and", "or", "the") in lowercase (unless they are the first word), and preserving acronyms.
+- **Tool titles** are sanitized so that each word starts with an uppercase letter, except for minor words (unless first), and the remaining letters are left as entered.
 - **Descriptions** are sanitized to capitalize the first word.
 - **URLs** are stored in lowercase and automatically prefixed with `https://` if missing.
 - **Tags** are stored in lowercase.
@@ -64,6 +65,7 @@ To organize the list I've built a CLI application in Python, which is included i
 - [data/structure.yaml](/data/structure.yaml) – Section and category structure.
 - [data/tools.yaml](/data/tools.yaml) – List of all tools.
 - [data/acronyms.txt](/data/acronyms.txt) – Acronyms.
+- [data/minor_words.txt](/data/minor_words.txt) – List of minor words.
 
 ---
 
