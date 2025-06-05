@@ -10,7 +10,10 @@
 
 Linux Tools is a comprehensive list of applications and tools for Linux, as well as distributions.
 
-I created this list to organize what I personally use, find useful or interesting, and to inspire others. The project also includes a Python CLI application for managing and generating the list in multiple formats.
+I created this list to organize what I personally use, find useful or interesting, and to inspire others.
+The project also includes a Python CLI application for managing and generating the list in multiple formats.
+
+While I originally built the CLI to manage my Linux tools list, the application itself is generic. You're more than welcome to fork the project and use it to build and manage your own list - whether for another platform, topic, or domain.
 
 ---
 
