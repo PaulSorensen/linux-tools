@@ -23,6 +23,7 @@ The list is structured into the following main sections:
 
 - 🖥️ **Desktop Tools**
 - 🛢️ **Server Tools**
+- 🛠️ **Bootable Tools**
 - 💿 **Distributions**
 
 ---
