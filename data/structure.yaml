@@ -41,6 +41,8 @@
       order:
     - name: Networking
       order:
+    - name: Password Managers
+      order:
 🛢️ Server Tools:
   order: 2
   categories:

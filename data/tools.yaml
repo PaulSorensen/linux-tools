@@ -52,6 +52,7 @@
     description: BitTorrent client developed by KDE, offering queuing, prioritization, selective downloading, DHT, UDP tracker support, IP filtering, plugin system, per-torrent speed limits, file preview, and peer management including kick/ban functionality.
     url: https://apps.kde.org/ktorrent
     tags:
+      - download
       - p2p
       - torrent
   - title: Ferdium
@@ -152,7 +153,7 @@
   - title: VSCodium
     section: 🖥️ Desktop Tools
     category: Development
-    description: Open-source community-driven version of VSCode without proprietary additions or telemetry. Fully compatible with VSCode extensions, though GitHub Copilot may not work.
+    description: Open-source community-driven version of VSCode without telemetry or proprietary additions, hence Settings Sync and other Microsoft features are not available. Compatible with most VSCode extensions via the Open VSX registry or manual installation. Some Microsoft extensions (e.g., Copilot, Live Share, Python, Remote tools) are restricted by license or code checks. Replacements exist for common use cases like C/C++, Python, and SSH remote editing.
     url: https://vscodium.com
     tags:
       - code
@@ -190,7 +191,7 @@
     tags:
       - design
       - image
-  - title: Photogimp
+  - title: PhotoGIMP
     section: 🖥️ Desktop Tools
     category: Imaging
     description: Custom GIMP configuration that mimics Photoshop’s layout, appearance, and keyboard shortcuts. Aims to ease the transition for users familiar with Adobe Photoshop.
@@ -282,7 +283,7 @@
       - fan
       - monitoring
       - sensors
-  - title: Ulauncher
+  - title: ULauncher
     section: 🖥️ Desktop Tools
     category: Application Launchers
     description: Modern and extensible application launcher with plugin support and custom theming. Offers fast fuzzy search, shortcut-based actions, and a minimal UI designed for keyboard-driven workflows.
@@ -370,6 +371,7 @@
     description: Free, open-source web-based server admin interface sponsored by Red Hat. While primarily developed by Red Hat engineers, it’s community-driven and available on most major Linux distributions. Cockpit provides a browser-based UI to manage networking, firewall, storage, user accounts, virtual machines, containers, system logs (including SELinux), systemd services, hardware, performance, and overall system monitoring. It allows software upgrades, includes a built-in terminal, and supports add-ons and custom modules.
     url: https://cockpit-project.org
     tags:
+      - cockpit
       - containers
       - devops
       - infrastructure
@@ -633,7 +635,7 @@
       - code
       - dev
       - editor
-  - title: Dbeaver
+  - title: DBeaver
     section: 🛢️ Server Tools
     category: Database Management
     description: Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.
@@ -827,7 +829,7 @@
       - encryption
       - privacy
       - vpn
-  - title: Red Hat Enterprise Linux (rhel)
+  - title: Red Hat Enterprise Linux (RHEL)
     section: 💿 Distributions
     category: Enterprise
     description: Open-source at its core, though official binaries require a subscription. RHEL is the grandfather of enterprise Linux and the gold standard for production systems. One of the pioneers in the Linux world, Red Hat is a major upstream contributor to the Linux kernel, GNOME, systemd, Podman, Ansible, Cockpit, OpenShift, and more. Offers rock-solid stability and a 10-year support lifecycle. With a free developer account, you can run up to 16 RHEL instances. Lesser known, it also includes a Workstation edition.
@@ -847,7 +849,7 @@
       - freebsd
       - pkg
       - server
-  - title: pfSense
+  - title: PfSense
     section: 💿 Distributions
     category: Appliance OS
     description: Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.
@@ -859,7 +861,7 @@
       - networking
       - pkg
       - vpn
-  - title: TrueNAS Core
+  - title: TrueNAS CORE
     section: 💿 Distributions
     category: Appliance OS
     description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.
@@ -875,7 +877,7 @@
       - streaming
       - virtualization
       - vm
-  - title: TrueNAS Scale
+  - title: TrueNAS SCALE
     section: 💿 Distributions
     category: Appliance OS
     description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).
@@ -973,3 +975,86 @@
       - networking
       - scanner
       - security
+  - title: Audiobookshelf
+    section: 🛢️ Server Tools
+    category: Media
+    description: Open-source audiobook and podcast server with real-time streaming, metadata editing, multi-user playback sync, Chromecast support, and mobile apps. Includes chapter editing, e-book support, and automated metadata backups. Requires WebSocket support when reverse proxied.
+    url: https://www.audiobookshelf.org
+    tags:
+      - audio
+      - audiobook
+      - media
+      - podcast
+      - streaming
+  - title: Inkscape
+    section: 🖥️ Desktop Tools
+    category: Imaging
+    description: Open-source vector graphics editor supporting the full SVG standard. Offers advanced features like node editing, layers, gradients, text-on-path, and complex path operations. Imports raster and vector formats including EPS, PNG, JPEG, and exports to PNG and multiple vector formats.
+    url: https://inkscape.org
+    tags:
+      - design
+      - image
+      - svg
+      - vector
+  - title: NordPass
+    section: 🖥️ Desktop Tools
+    category: Password Managers
+    description: Zero-knowledge architecture, end-to-end encrypted using xChaCha20, built-in authenticator (TOTP), password health reports, data breach scanner, and passkey support. Developed by Nord Security. Offers a free plan with cross-platform sync.
+    url: https://nordpass.com
+    tags:
+      - e2ee
+      - password
+      - privacy
+      - security
+  - title: Midori
+    section: 🖥️ Desktop Tools
+    category: Browsers
+    description: Open-source, privacy-focused, telemetry-free browser from Astian, Inc (Astian Foundation). Built on Gecko with built-in ad and tracker blocking, workspace-based tab organization, appearance customization, and support for Firefox add-ons.
+    url: https://astian.org/midori-browser
+    tags:
+      - mozilla
+      - privacy
+  - title: LocalSend
+    section: 🖥️ Desktop Tools
+    category: File Transfer
+    description: Open-source, cross-platform tool for secure local file transfer over Wi-Fi. Uses end-to-end encrypted, peer-to-peer communication with no internet or central server required. Automatically discovers nearby devices with a clean, registration-free UI.
+    url: https://localsend.org
+    tags:
+      - filetransfer
+      - p2p
+      - privacy
+  - title: Sublime Merge
+    section: 🖥️ Desktop Tools
+    category: Development
+    description: Git client with built-in merge conflict resolution, line-by-line staging, and syntax-highlighted diffs. Offers full Git command visibility, powerful history search, submodule management, and Git Flow support.
+    url: https://www.sublimemerge.com
+    tags:
+      - git
+  - title: Cockpit Sensors
+    section: 🛢️ Server Tools
+    category: System Management
+    description: Open-source Cockpit module that visualizes system sensor data via lm-sensors. Adds temperature, fan, and voltage monitoring to the Cockpit web UI.
+    url: https://github.com/ocristopfer/cockpit-sensors
+    tags:
+      - cockpit
+      - monitoring
+      - sensors
+  - title: LibreOffice
+    section: 🖥️ Desktop Tools
+    category: Office and Productivity
+    description: Open-source, full-featured office suite maintained by The Document Foundation. Includes Writer, Calc, Impress, Draw, and Math for working with documents, spreadsheets, presentations, vector graphics, and formulas. Offers native ODF support, and reasonable compatibility with Microsoft Office formats.
+    url: https://www.libreoffice.org
+    tags:
+      - documents
+      - office
+      - pdf
+      - spreadsheets
+  - title: Persepolis
+    section: 🖥️ Desktop Tools
+    category: Download Managers
+    description: Open-source GUI download manager built on top of aria2. Supports multi-segment downloading, scheduling, queues, and video downloads from sites like YouTube and Vimeo. Integration for Firefox and Chromium-based browsers.
+    url: https://persepolisdm.github.io
+    tags:
+      - aria2
+      - download
+      - http
