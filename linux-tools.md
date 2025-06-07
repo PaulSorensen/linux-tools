@@ -4,7 +4,7 @@
 
 ### Application Launchers
 
-* [**Ulauncher**](https://ulauncher.io) - Modern and extensible application launcher with plugin support and custom theming. Offers fast fuzzy search, shortcut-based actions, and a minimal UI designed for keyboard-driven workflows.  
+* [**ULauncher**](https://ulauncher.io) - Modern and extensible application launcher with plugin support and custom theming. Offers fast fuzzy search, shortcut-based actions, and a minimal UI designed for keyboard-driven workflows.  
   **Tags:** `launcher`, `ui`
 
 ### Backup
@@ -28,6 +28,8 @@
 
 ### Browsers
 
+* [**Midori**](https://astian.org/midori-browser) - Open-source, privacy-focused, telemetry-free browser from Astian, Inc (Astian Foundation). Built on Gecko with built-in ad and tracker blocking, workspace-based tab organization, appearance customization, and support for Firefox add-ons.  
+  **Tags:** `mozilla`, `privacy`
 * [**Mullvad Browser**](https://mullvad.net/en/browser) - Sweden-based privacy-focused browser developed by Mullvad and the Tor Project. A hardened Mozilla Firefox fork designed to resist tracking, fingerprinting, and surveillance. Includes preconfigured privacy settings, disables telemetry, and isolates site data for anonymous browsing without requiring a VPN.  
   **Tags:** `anonymity`, `mozilla`, `privacy`, `tor`
 * [**Vivaldi**](https://vivaldi.com) - Norwegian-based highly customizable privacy-focused browser built on Chromium. Offers advanced tab management, UI flexibility, built-in ad and tracker blocking, mail, calendar, and RSS reader. Can sync tabs, bookmarks, and notes with end-to-end encryption (E2EE) via Vivaldi's own servers hosted in Iceland.  
@@ -46,9 +48,11 @@
   **Tags:** `code`, `dev`, `editor`, `ide`, `python`
 * [**Rider**](https://www.jetbrains.com/rider) - Powerful .NET and Unity IDE alternative to Visual Studio. Feature-rich and extensible, with full NuGet support and deep language tooling. Offers a free version for personal and open-source use, but collects anonymized usage data.  
   **Tags:** `code`, `dev`, `dotnet`, `editor`, `ide`, `unity`
+* [**Sublime Merge**](https://www.sublimemerge.com) - Git client with built-in merge conflict resolution, line-by-line staging, and syntax-highlighted diffs. Offers full Git command visibility, powerful history search, submodule management, and Git Flow support.  
+  **Tags:** `git`
 * [**Sublime Text**](https://www.sublimetext.com) - Lightweight and extensible code editor with a fast interface and powerful features like multi-cursor editing, split panes, and a rich plugin ecosystem.  
   **Tags:** `code`, `dev`, `editor`
-* [**VSCodium**](https://vscodium.com) - Open-source community-driven version of VSCode without proprietary additions or telemetry. Fully compatible with VSCode extensions, though GitHub Copilot may not work.  
+* [**VSCodium**](https://vscodium.com) - Open-source community-driven version of VSCode without telemetry or proprietary additions, hence Settings Sync and other Microsoft features are not available. Compatible with most VSCode extensions via the Open VSX registry or manual installation. Some Microsoft extensions (e.g., Copilot, Live Share, Python, Remote tools) are restricted by license or code checks. Replacements exist for common use cases like C/C++, Python, and SSH remote editing.  
   **Tags:** `code`, `dev`, `editor`, `vscode`
 * [**Visual Studio Code**](https://code.visualstudio.com) - Popular code editor with a strong extension ecosystem and deep GitHub integration, including Copilot. Supports debugging, terminals, and language servers out of the box.  
   **Tags:** `code`, `copilot`, `dev`, `editor`, `vscode`
@@ -58,7 +62,9 @@
 ### Download Managers
 
 * [**KTorrent**](https://apps.kde.org/ktorrent) - BitTorrent client developed by KDE, offering queuing, prioritization, selective downloading, DHT, UDP tracker support, IP filtering, plugin system, per-torrent speed limits, file preview, and peer management including kick/ban functionality.  
-  **Tags:** `p2p`, `torrent`
+  **Tags:** `download`, `p2p`, `torrent`
+* [**Persepolis**](https://persepolisdm.github.io) - Open-source GUI download manager built on top of aria2. Supports multi-segment downloading, scheduling, queues, and video downloads from sites like YouTube and Vimeo. Integration for Firefox and Chromium-based browsers.  
+  **Tags:** `aria2`, `download`, `http`
 
 ### Fan, Sensors & RGB
 
@@ -73,6 +79,8 @@
 
 * [**Filezilla Pro**](https://filezillapro.com) - Powerful, feature-rich file transfer client supporting multiple protocols including FTP, FTPS, SFTP, S3, WebDAV, Azure Storage, Dropbox, and more.  
   **Tags:** `filetransfer`, `ftp`, `s3`, `sftp`, `webdav`
+* [**LocalSend**](https://localsend.org) - Open-source, cross-platform tool for secure local file transfer over Wi-Fi. Uses end-to-end encrypted, peer-to-peer communication with no internet or central server required. Automatically discovers nearby devices with a clean, registration-free UI.  
+  **Tags:** `filetransfer`, `p2p`, `privacy`
 
 ### Gaming
 
@@ -83,7 +91,9 @@
 
 * [**GIMP**](https://www.gimp.org) - Open-source advanced image editor. Supports layers, masks, scripting, and a wide range of formats. Suitable for photo retouching, image composition, and graphic design. Not a direct comparison to Photoshop.  
   **Tags:** `design`, `image`
-* [**Photogimp**](https://github.com/diolinux/photogimp) - Custom GIMP configuration that mimics Photoshop’s layout, appearance, and keyboard shortcuts. Aims to ease the transition for users familiar with Adobe Photoshop.  
+* [**Inkscape**](https://inkscape.org) - Open-source vector graphics editor supporting the full SVG standard. Offers advanced features like node editing, layers, gradients, text-on-path, and complex path operations. Imports raster and vector formats including EPS, PNG, JPEG, and exports to PNG and multiple vector formats.  
+  **Tags:** `design`, `image`, `svg`, `vector`
+* [**PhotoGIMP**](https://github.com/diolinux/photogimp) - Custom GIMP configuration that mimics Photoshop’s layout, appearance, and keyboard shortcuts. Aims to ease the transition for users familiar with Adobe Photoshop.  
   **Tags:** `design`, `image`, `photoshop`
 * [**Photopea**](https://www.photopea.com) - Czech Republic-based, free advanced image editor with a Photoshop-like interface. Runs entirely in the browser, processing images locally without uploading to a server. Suitable for users familiar with Adobe Photoshop.  
   **Tags:** `design`, `image`, `photoshop`
@@ -124,10 +134,17 @@
 
 * [**Joplin**](https://joplinapp.org) - Open-source, privacy-first note-taking app with full end-to-end encryption (E2EE). It works across all major platforms and syncs seamlessly between devices. You can store your notes in Joplin Cloud or use Dropbox, OneDrive, Nextcloud, WebDAV, local file system, or S3-compatible storage – including free Cloudflare R2. It’s very flexible and secure.  
   **Tags:** `e2ee`, `notes`, `privacy`, `sync`
+* [**LibreOffice**](https://www.libreoffice.org) - Open-source, full-featured office suite maintained by The Document Foundation. Includes Writer, Calc, Impress, Draw, and Math for working with documents, spreadsheets, presentations, vector graphics, and formulas. Offers native ODF support, and reasonable compatibility with Microsoft Office formats.  
+  **Tags:** `documents`, `office`, `pdf`, `spreadsheets`
 * [**MarkText**](https://www.marktext.cc) - Open-source Markdown editor with a clean, distraction-free interface. Supports CommonMark and GitHub Flavored Markdown, math expressions (KaTeX), diagrams (Flowchart, Sequence, Gantt), front matter, and export to HTML/PDF. Includes image pasting, themes, and editing modes like Typewriter and Focus.  
   **Tags:** `editor`, `markdown`
 * [**OnlyOffice**](https://www.onlyoffice.com) - Latvia-based, privacy-first, open-source office suite with no telemetry. Offers encryption and integrates with platforms like Nextcloud. Offers documents, spreadsheets, presentations, and PDFs. Great support for Microsoft Office Word documents, and Excel sheets. Modern, sleek and familiar user-interface.  
   **Tags:** `documents`, `office`, `pdf`, `spreadsheets`
+
+### Password Managers
+
+* [**NordPass**](https://nordpass.com) - Zero-knowledge architecture, end-to-end encrypted using xChaCha20, built-in authenticator (TOTP), password health reports, data breach scanner, and passkey support. Developed by Nord Security. Offers a free plan with cross-platform sync.  
+  **Tags:** `e2ee`, `password`, `privacy`, `security`
 
 ### Recovery
 
@@ -197,11 +214,13 @@
 
 ### Database Management
 
-* [**Dbeaver**](https://dbeaver.io) - Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.  
+* [**DBeaver**](https://dbeaver.io) - Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.  
   **Tags:** `nosql`, `sql`
 
 ### Media
 
+* [**Audiobookshelf**](https://www.audiobookshelf.org) - Open-source audiobook and podcast server with real-time streaming, metadata editing, multi-user playback sync, Chromecast support, and mobile apps. Includes chapter editing, e-book support, and automated metadata backups. Requires WebSocket support when reverse proxied.  
+  **Tags:** `audio`, `audiobook`, `media`, `podcast`, `streaming`
 * [**Jellyfin**](https://jellyfin.org) - Open-source media server for organizing and streaming movies, shows, music, books, and photos. Includes features like live TV, DVR, and SyncPlay, which lets multiple users watch content in sync. Offers a polished, Netflix-style UI and streams to nearly any device, including web, smart TVs, iOS, Android, Roku, Kodi, and more.  
   **Tags:** `audio`, `media`, `streaming`, `video`
 
@@ -221,7 +240,9 @@
 ### System Management
 
 * [**Cockpit**](https://cockpit-project.org) - Free, open-source web-based server admin interface sponsored by Red Hat. While primarily developed by Red Hat engineers, it’s community-driven and available on most major Linux distributions. Cockpit provides a browser-based UI to manage networking, firewall, storage, user accounts, virtual machines, containers, system logs (including SELinux), systemd services, hardware, performance, and overall system monitoring. It allows software upgrades, includes a built-in terminal, and supports add-ons and custom modules.  
-  **Tags:** `containers`, `devops`, `infrastructure`, `monitoring`, `podman`, `sysadmin`, `virtualization`
+  **Tags:** `cockpit`, `containers`, `devops`, `infrastructure`, `monitoring`, `podman`, `sysadmin`, `virtualization`
+* [**Cockpit Sensors**](https://github.com/ocristopfer/cockpit-sensors) - Open-source Cockpit module that visualizes system sensor data via lm-sensors. Adds temperature, fan, and voltage monitoring to the Cockpit web UI.  
+  **Tags:** `cockpit`, `monitoring`, `sensors`
 
 ### VPN
 
@@ -289,7 +310,7 @@
 
 * [**AlmaLinux**](https://almalinux.org) - Open-source, enterprise-grade and binary-compatible with Red Hat Enterprise Linux (RHEL). Maintained by the AlmaLinux OS Foundation, a community-driven non-profit. Offers long-term support with each release maintained for 10 years. A stable, free alternative to RHEL for production environments, ideal for businesses, hosting, and infrastructure.  
   **Tags:** `rhel`, `rpm`, `server`
-* [**Red Hat Enterprise Linux (rhel)**](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) - Open-source at its core, though official binaries require a subscription. RHEL is the grandfather of enterprise Linux and the gold standard for production systems. One of the pioneers in the Linux world, Red Hat is a major upstream contributor to the Linux kernel, GNOME, systemd, Podman, Ansible, Cockpit, OpenShift, and more. Offers rock-solid stability and a 10-year support lifecycle. With a free developer account, you can run up to 16 RHEL instances. Lesser known, it also includes a Workstation edition.  
+* [**Red Hat Enterprise Linux (RHEL)**](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) - Open-source at its core, though official binaries require a subscription. RHEL is the grandfather of enterprise Linux and the gold standard for production systems. One of the pioneers in the Linux world, Red Hat is a major upstream contributor to the Linux kernel, GNOME, systemd, Podman, Ansible, Cockpit, OpenShift, and more. Offers rock-solid stability and a 10-year support lifecycle. With a free developer account, you can run up to 16 RHEL instances. Lesser known, it also includes a Workstation edition.  
   **Tags:** `desktop`, `rhel`, `rpm`, `server`
 * [**Rocky Linux**](https://rockylinux.org) - Open-source, enterprise-grade, and binary-compatible with Red Hat Enterprise Linux (RHEL). Led by original CentOS co-founder Gregory Kurtzer and maintained by the Rocky Enterprise Software Foundation (RESF). Each release is supported for 10 years, aligning with RHEL. A stable, free alternative to RHEL for production environments, ideal for businesses, hosting, and infrastructure.  
   **Tags:** `rhel`, `rpm`, `server`
@@ -305,12 +326,12 @@
 
 ### Appliance OS
 
-* [**TrueNAS Core**](https://www.truenas.com/truenas-core) - Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.  
-  **Tags:** `bsd`, `freebsd`, `media`, `nas`, `networking`, `pkg`, `storage`, `streaming`, `virtualization`, `vm`
-* [**TrueNAS Scale**](https://www.truenas.com/truenas-scale) - Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).  
-  **Tags:** `apt`, `containers`, `debian`, `kubernetes`, `kvm`, `media`, `nas`, `networking`, `orchestration`, `storage`, `streaming`, `virtualization`, `vm`
-* [**pfSense**](https://www.pfsense.org) - Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.  
+* [**PfSense**](https://www.pfsense.org) - Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.  
   **Tags:** `bsd`, `firewall`, `freebsd`, `networking`, `pkg`, `vpn`
+* [**TrueNAS CORE**](https://www.truenas.com/truenas-core) - Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.  
+  **Tags:** `bsd`, `freebsd`, `media`, `nas`, `networking`, `pkg`, `storage`, `streaming`, `virtualization`, `vm`
+* [**TrueNAS SCALE**](https://www.truenas.com/truenas-scale) - Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).  
+  **Tags:** `apt`, `containers`, `debian`, `kubernetes`, `kvm`, `media`, `nas`, `networking`, `orchestration`, `storage`, `streaming`, `virtualization`, `vm`
 
 ### Unix-like
 

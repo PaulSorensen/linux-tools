@@ -4,7 +4,7 @@
 
     Application Launchers
 
-        Title: Ulauncher
+        Title: ULauncher
         Description: Modern and extensible application launcher with plugin support and custom theming. Offers fast fuzzy search, shortcut-based actions, and a minimal UI designed for keyboard-driven workflows.
         URL: https://ulauncher.io
         Tags: launcher, ui
@@ -53,6 +53,11 @@
 
     Browsers
 
+        Title: Midori
+        Description: Open-source, privacy-focused, telemetry-free browser from Astian, Inc (Astian Foundation). Built on Gecko with built-in ad and tracker blocking, workspace-based tab organization, appearance customization, and support for Firefox add-ons.
+        URL: https://astian.org/midori-browser
+        Tags: mozilla, privacy
+
         Title: Mullvad Browser
         Description: Sweden-based privacy-focused browser developed by Mullvad and the Tor Project. A hardened Mozilla Firefox fork designed to resist tracking, fingerprinting, and surveillance. Includes preconfigured privacy settings, disables telemetry, and isolates site data for anonymous browsing without requiring a VPN.
         URL: https://mullvad.net/en/browser
@@ -87,13 +92,18 @@
         URL: https://www.jetbrains.com/rider
         Tags: code, dev, dotnet, editor, ide, unity
 
+        Title: Sublime Merge
+        Description: Git client with built-in merge conflict resolution, line-by-line staging, and syntax-highlighted diffs. Offers full Git command visibility, powerful history search, submodule management, and Git Flow support.
+        URL: https://www.sublimemerge.com
+        Tags: git
+
         Title: Sublime Text
         Description: Lightweight and extensible code editor with a fast interface and powerful features like multi-cursor editing, split panes, and a rich plugin ecosystem.
         URL: https://www.sublimetext.com
         Tags: code, dev, editor
 
         Title: VSCodium
-        Description: Open-source community-driven version of VSCode without proprietary additions or telemetry. Fully compatible with VSCode extensions, though GitHub Copilot may not work.
+        Description: Open-source community-driven version of VSCode without telemetry or proprietary additions, hence Settings Sync and other Microsoft features are not available. Compatible with most VSCode extensions via the Open VSX registry or manual installation. Some Microsoft extensions (e.g., Copilot, Live Share, Python, Remote tools) are restricted by license or code checks. Replacements exist for common use cases like C/C++, Python, and SSH remote editing.
         URL: https://vscodium.com
         Tags: code, dev, editor, vscode
 
@@ -112,7 +122,12 @@
         Title: KTorrent
         Description: BitTorrent client developed by KDE, offering queuing, prioritization, selective downloading, DHT, UDP tracker support, IP filtering, plugin system, per-torrent speed limits, file preview, and peer management including kick/ban functionality.
         URL: https://apps.kde.org/ktorrent
-        Tags: p2p, torrent
+        Tags: download, p2p, torrent
+
+        Title: Persepolis
+        Description: Open-source GUI download manager built on top of aria2. Supports multi-segment downloading, scheduling, queues, and video downloads from sites like YouTube and Vimeo. Integration for Firefox and Chromium-based browsers.
+        URL: https://persepolisdm.github.io
+        Tags: aria2, download, http
 
     Fan, Sensors & RGB
 
@@ -138,6 +153,11 @@
         URL: https://filezillapro.com
         Tags: filetransfer, ftp, s3, sftp, webdav
 
+        Title: LocalSend
+        Description: Open-source, cross-platform tool for secure local file transfer over Wi-Fi. Uses end-to-end encrypted, peer-to-peer communication with no internet or central server required. Automatically discovers nearby devices with a clean, registration-free UI.
+        URL: https://localsend.org
+        Tags: filetransfer, p2p, privacy
+
     Gaming
 
         Title: Steam
@@ -152,7 +172,12 @@
         URL: https://www.gimp.org
         Tags: design, image
 
-        Title: Photogimp
+        Title: Inkscape
+        Description: Open-source vector graphics editor supporting the full SVG standard. Offers advanced features like node editing, layers, gradients, text-on-path, and complex path operations. Imports raster and vector formats including EPS, PNG, JPEG, and exports to PNG and multiple vector formats.
+        URL: https://inkscape.org
+        Tags: design, image, svg, vector
+
+        Title: PhotoGIMP
         Description: Custom GIMP configuration that mimics Photoshop’s layout, appearance, and keyboard shortcuts. Aims to ease the transition for users familiar with Adobe Photoshop.
         URL: https://github.com/diolinux/photogimp
         Tags: design, image, photoshop
@@ -227,6 +252,11 @@
         URL: https://joplinapp.org
         Tags: e2ee, notes, privacy, sync
 
+        Title: LibreOffice
+        Description: Open-source, full-featured office suite maintained by The Document Foundation. Includes Writer, Calc, Impress, Draw, and Math for working with documents, spreadsheets, presentations, vector graphics, and formulas. Offers native ODF support, and reasonable compatibility with Microsoft Office formats.
+        URL: https://www.libreoffice.org
+        Tags: documents, office, pdf, spreadsheets
+
         Title: MarkText
         Description: Open-source Markdown editor with a clean, distraction-free interface. Supports CommonMark and GitHub Flavored Markdown, math expressions (KaTeX), diagrams (Flowchart, Sequence, Gantt), front matter, and export to HTML/PDF. Includes image pasting, themes, and editing modes like Typewriter and Focus.
         URL: https://www.marktext.cc
@@ -236,6 +266,13 @@
         Description: Latvia-based, privacy-first, open-source office suite with no telemetry. Offers encryption and integrates with platforms like Nextcloud. Offers documents, spreadsheets, presentations, and PDFs. Great support for Microsoft Office Word documents, and Excel sheets. Modern, sleek and familiar user-interface.
         URL: https://www.onlyoffice.com
         Tags: documents, office, pdf, spreadsheets
+
+    Password Managers
+
+        Title: NordPass
+        Description: Zero-knowledge architecture, end-to-end encrypted using xChaCha20, built-in authenticator (TOTP), password health reports, data breach scanner, and passkey support. Developed by Nord Security. Offers a free plan with cross-platform sync.
+        URL: https://nordpass.com
+        Tags: e2ee, password, privacy, security
 
     Recovery
 
@@ -357,12 +394,17 @@
 
     Database Management
 
-        Title: Dbeaver
+        Title: DBeaver
         Description: Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.
         URL: https://dbeaver.io
         Tags: nosql, sql
 
     Media
+
+        Title: Audiobookshelf
+        Description: Open-source audiobook and podcast server with real-time streaming, metadata editing, multi-user playback sync, Chromecast support, and mobile apps. Includes chapter editing, e-book support, and automated metadata backups. Requires WebSocket support when reverse proxied.
+        URL: https://www.audiobookshelf.org
+        Tags: audio, audiobook, media, podcast, streaming
 
         Title: Jellyfin
         Description: Open-source media server for organizing and streaming movies, shows, music, books, and photos. Includes features like live TV, DVR, and SyncPlay, which lets multiple users watch content in sync. Offers a polished, Netflix-style UI and streams to nearly any device, including web, smart TVs, iOS, Android, Roku, Kodi, and more.
@@ -401,7 +443,12 @@
         Title: Cockpit
         Description: Free, open-source web-based server admin interface sponsored by Red Hat. While primarily developed by Red Hat engineers, it’s community-driven and available on most major Linux distributions. Cockpit provides a browser-based UI to manage networking, firewall, storage, user accounts, virtual machines, containers, system logs (including SELinux), systemd services, hardware, performance, and overall system monitoring. It allows software upgrades, includes a built-in terminal, and supports add-ons and custom modules.
         URL: https://cockpit-project.org
-        Tags: containers, devops, infrastructure, monitoring, podman, sysadmin, virtualization
+        Tags: cockpit, containers, devops, infrastructure, monitoring, podman, sysadmin, virtualization
+
+        Title: Cockpit Sensors
+        Description: Open-source Cockpit module that visualizes system sensor data via lm-sensors. Adds temperature, fan, and voltage monitoring to the Cockpit web UI.
+        URL: https://github.com/ocristopfer/cockpit-sensors
+        Tags: cockpit, monitoring, sensors
 
     VPN
 
@@ -526,7 +573,7 @@
         URL: https://almalinux.org
         Tags: rhel, rpm, server
 
-        Title: Red Hat Enterprise Linux (rhel)
+        Title: Red Hat Enterprise Linux (RHEL)
         Description: Open-source at its core, though official binaries require a subscription. RHEL is the grandfather of enterprise Linux and the gold standard for production systems. One of the pioneers in the Linux world, Red Hat is a major upstream contributor to the Linux kernel, GNOME, systemd, Podman, Ansible, Cockpit, OpenShift, and more. Offers rock-solid stability and a 10-year support lifecycle. With a free developer account, you can run up to 16 RHEL instances. Lesser known, it also includes a Workstation edition.
         URL: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
         Tags: desktop, rhel, rpm, server
@@ -555,20 +602,20 @@
 
     Appliance OS
 
-        Title: TrueNAS Core
+        Title: PfSense
+        Description: Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.
+        URL: https://www.pfsense.org
+        Tags: bsd, firewall, freebsd, networking, pkg, vpn
+
+        Title: TrueNAS CORE
         Description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.
         URL: https://www.truenas.com/truenas-core
         Tags: bsd, freebsd, media, nas, networking, pkg, storage, streaming, virtualization, vm
 
-        Title: TrueNAS Scale
+        Title: TrueNAS SCALE
         Description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).
         URL: https://www.truenas.com/truenas-scale
         Tags: apt, containers, debian, kubernetes, kvm, media, nas, networking, orchestration, storage, streaming, virtualization, vm
-
-        Title: pfSense
-        Description: Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.
-        URL: https://www.pfsense.org
-        Tags: bsd, firewall, freebsd, networking, pkg, vpn
 
     Unix-like
 

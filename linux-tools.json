@@ -3,7 +3,7 @@
     "\ud83d\udda5\ufe0f Desktop Tools": {
       "Application Launchers": [
         {
-          "title": "Ulauncher",
+          "title": "ULauncher",
           "description": "Modern and extensible application launcher with plugin support and custom theming. Offers fast fuzzy search, shortcut-based actions, and a minimal UI designed for keyboard-driven workflows.",
           "url": "https://ulauncher.io",
           "tags": [
@@ -95,6 +95,15 @@
       ],
       "Browsers": [
         {
+          "title": "Midori",
+          "description": "Open-source, privacy-focused, telemetry-free browser from Astian, Inc (Astian Foundation). Built on Gecko with built-in ad and tracker blocking, workspace-based tab organization, appearance customization, and support for Firefox add-ons.",
+          "url": "https://astian.org/midori-browser",
+          "tags": [
+            "mozilla",
+            "privacy"
+          ]
+        },
+        {
           "title": "Mullvad Browser",
           "description": "Sweden-based privacy-focused browser developed by Mullvad and the Tor Project. A hardened Mozilla Firefox fork designed to resist tracking, fingerprinting, and surveillance. Includes preconfigured privacy settings, disables telemetry, and isolates site data for anonymous browsing without requiring a VPN.",
           "url": "https://mullvad.net/en/browser",
@@ -164,6 +173,14 @@
           ]
         },
         {
+          "title": "Sublime Merge",
+          "description": "Git client with built-in merge conflict resolution, line-by-line staging, and syntax-highlighted diffs. Offers full Git command visibility, powerful history search, submodule management, and Git Flow support.",
+          "url": "https://www.sublimemerge.com",
+          "tags": [
+            "git"
+          ]
+        },
+        {
           "title": "Sublime Text",
           "description": "Lightweight and extensible code editor with a fast interface and powerful features like multi-cursor editing, split panes, and a rich plugin ecosystem.",
           "url": "https://www.sublimetext.com",
@@ -175,7 +192,7 @@
         },
         {
           "title": "VSCodium",
-          "description": "Open-source community-driven version of VSCode without proprietary additions or telemetry. Fully compatible with VSCode extensions, though GitHub Copilot may not work.",
+          "description": "Open-source community-driven version of VSCode without telemetry or proprietary additions, hence Settings Sync and other Microsoft features are not available. Compatible with most VSCode extensions via the Open VSX registry or manual installation. Some Microsoft extensions (e.g., Copilot, Live Share, Python, Remote tools) are restricted by license or code checks. Replacements exist for common use cases like C/C++, Python, and SSH remote editing.",
           "url": "https://vscodium.com",
           "tags": [
             "code",
@@ -213,8 +230,19 @@
           "description": "BitTorrent client developed by KDE, offering queuing, prioritization, selective downloading, DHT, UDP tracker support, IP filtering, plugin system, per-torrent speed limits, file preview, and peer management including kick/ban functionality.",
           "url": "https://apps.kde.org/ktorrent",
           "tags": [
+            "download",
             "p2p",
             "torrent"
+          ]
+        },
+        {
+          "title": "Persepolis",
+          "description": "Open-source GUI download manager built on top of aria2. Supports multi-segment downloading, scheduling, queues, and video downloads from sites like YouTube and Vimeo. Integration for Firefox and Chromium-based browsers.",
+          "url": "https://persepolisdm.github.io",
+          "tags": [
+            "aria2",
+            "download",
+            "http"
           ]
         }
       ],
@@ -265,6 +293,16 @@
             "sftp",
             "webdav"
           ]
+        },
+        {
+          "title": "LocalSend",
+          "description": "Open-source, cross-platform tool for secure local file transfer over Wi-Fi. Uses end-to-end encrypted, peer-to-peer communication with no internet or central server required. Automatically discovers nearby devices with a clean, registration-free UI.",
+          "url": "https://localsend.org",
+          "tags": [
+            "filetransfer",
+            "p2p",
+            "privacy"
+          ]
         }
       ],
       "Gaming": [
@@ -289,7 +327,18 @@
           ]
         },
         {
-          "title": "Photogimp",
+          "title": "Inkscape",
+          "description": "Open-source vector graphics editor supporting the full SVG standard. Offers advanced features like node editing, layers, gradients, text-on-path, and complex path operations. Imports raster and vector formats including EPS, PNG, JPEG, and exports to PNG and multiple vector formats.",
+          "url": "https://inkscape.org",
+          "tags": [
+            "design",
+            "image",
+            "svg",
+            "vector"
+          ]
+        },
+        {
+          "title": "PhotoGIMP",
           "description": "Custom GIMP configuration that mimics Photoshop\u2019s layout, appearance, and keyboard shortcuts. Aims to ease the transition for users familiar with Adobe Photoshop.",
           "url": "https://github.com/diolinux/photogimp",
           "tags": [
@@ -435,6 +484,17 @@
           ]
         },
         {
+          "title": "LibreOffice",
+          "description": "Open-source, full-featured office suite maintained by The Document Foundation. Includes Writer, Calc, Impress, Draw, and Math for working with documents, spreadsheets, presentations, vector graphics, and formulas. Offers native ODF support, and reasonable compatibility with Microsoft Office formats.",
+          "url": "https://www.libreoffice.org",
+          "tags": [
+            "documents",
+            "office",
+            "pdf",
+            "spreadsheets"
+          ]
+        },
+        {
           "title": "MarkText",
           "description": "Open-source Markdown editor with a clean, distraction-free interface. Supports CommonMark and GitHub Flavored Markdown, math expressions (KaTeX), diagrams (Flowchart, Sequence, Gantt), front matter, and export to HTML/PDF. Includes image pasting, themes, and editing modes like Typewriter and Focus.",
           "url": "https://www.marktext.cc",
@@ -452,6 +512,19 @@
             "office",
             "pdf",
             "spreadsheets"
+          ]
+        }
+      ],
+      "Password Managers": [
+        {
+          "title": "NordPass",
+          "description": "Zero-knowledge architecture, end-to-end encrypted using xChaCha20, built-in authenticator (TOTP), password health reports, data breach scanner, and passkey support. Developed by Nord Security. Offers a free plan with cross-platform sync.",
+          "url": "https://nordpass.com",
+          "tags": [
+            "e2ee",
+            "password",
+            "privacy",
+            "security"
           ]
         }
       ],
@@ -682,7 +755,7 @@
       ],
       "Database Management": [
         {
-          "title": "Dbeaver",
+          "title": "DBeaver",
           "description": "Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.",
           "url": "https://dbeaver.io",
           "tags": [
@@ -692,6 +765,18 @@
         }
       ],
       "Media": [
+        {
+          "title": "Audiobookshelf",
+          "description": "Open-source audiobook and podcast server with real-time streaming, metadata editing, multi-user playback sync, Chromecast support, and mobile apps. Includes chapter editing, e-book support, and automated metadata backups. Requires WebSocket support when reverse proxied.",
+          "url": "https://www.audiobookshelf.org",
+          "tags": [
+            "audio",
+            "audiobook",
+            "media",
+            "podcast",
+            "streaming"
+          ]
+        },
         {
           "title": "Jellyfin",
           "description": "Open-source media server for organizing and streaming movies, shows, music, books, and photos. Includes features like live TV, DVR, and SyncPlay, which lets multiple users watch content in sync. Offers a polished, Netflix-style UI and streams to nearly any device, including web, smart TVs, iOS, Android, Roku, Kodi, and more.",
@@ -772,6 +857,7 @@
           "description": "Free, open-source web-based server admin interface sponsored by Red Hat. While primarily developed by Red Hat engineers, it\u2019s community-driven and available on most major Linux distributions. Cockpit provides a browser-based UI to manage networking, firewall, storage, user accounts, virtual machines, containers, system logs (including SELinux), systemd services, hardware, performance, and overall system monitoring. It allows software upgrades, includes a built-in terminal, and supports add-ons and custom modules.",
           "url": "https://cockpit-project.org",
           "tags": [
+            "cockpit",
             "containers",
             "devops",
             "infrastructure",
@@ -779,6 +865,16 @@
             "podman",
             "sysadmin",
             "virtualization"
+          ]
+        },
+        {
+          "title": "Cockpit Sensors",
+          "description": "Open-source Cockpit module that visualizes system sensor data via lm-sensors. Adds temperature, fan, and voltage monitoring to the Cockpit web UI.",
+          "url": "https://github.com/ocristopfer/cockpit-sensors",
+          "tags": [
+            "cockpit",
+            "monitoring",
+            "sensors"
           ]
         }
       ],
@@ -1031,7 +1127,7 @@
           ]
         },
         {
-          "title": "Red Hat Enterprise Linux (rhel)",
+          "title": "Red Hat Enterprise Linux (RHEL)",
           "description": "Open-source at its core, though official binaries require a subscription. RHEL is the grandfather of enterprise Linux and the gold standard for production systems. One of the pioneers in the Linux world, Red Hat is a major upstream contributor to the Linux kernel, GNOME, systemd, Podman, Ansible, Cockpit, OpenShift, and more. Offers rock-solid stability and a 10-year support lifecycle. With a free developer account, you can run up to 16 RHEL instances. Lesser known, it also includes a Workstation edition.",
           "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
           "tags": [
@@ -1092,7 +1188,20 @@
       ],
       "Appliance OS": [
         {
-          "title": "TrueNAS Core",
+          "title": "PfSense",
+          "description": "Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.",
+          "url": "https://www.pfsense.org",
+          "tags": [
+            "bsd",
+            "firewall",
+            "freebsd",
+            "networking",
+            "pkg",
+            "vpn"
+          ]
+        },
+        {
+          "title": "TrueNAS CORE",
           "description": "Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.",
           "url": "https://www.truenas.com/truenas-core",
           "tags": [
@@ -1109,7 +1218,7 @@
           ]
         },
         {
-          "title": "TrueNAS Scale",
+          "title": "TrueNAS SCALE",
           "description": "Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).",
           "url": "https://www.truenas.com/truenas-scale",
           "tags": [
@@ -1126,19 +1235,6 @@
             "streaming",
             "virtualization",
             "vm"
-          ]
-        },
-        {
-          "title": "pfSense",
-          "description": "Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.",
-          "url": "https://www.pfsense.org",
-          "tags": [
-            "bsd",
-            "firewall",
-            "freebsd",
-            "networking",
-            "pkg",
-            "vpn"
           ]
         }
       ],
