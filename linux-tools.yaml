@@ -295,6 +295,15 @@
           - messaging
           - privacy
     Multimedia:
+      - title: Grayjay
+        description: Open-source, privacy-focused, ad-free multi-platform media streamer that lets you follow creators and stream content from YouTube, Rumble, Twitch, SoundCloud, Apple Podcasts, etc. without registering. Subscriptions and playlists are saved locally and can be synced across devices (Android, Linux, Windows, macOS).
+        url: https://grayjay.app
+        tags:
+          - audio
+          - media
+          - player
+          - podcast
+          - video
       - title: Spotify
         description: Music and podcast streaming service. Official client available via Snap and .deb packages. No official RPM support, but a maintained RPM package is provided by negativo17.org. A community-maintained Flatpak version is also available via Flathub.
         url: https://www.spotify.com/de-en/download/linux

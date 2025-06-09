@@ -118,6 +118,8 @@
 
 ### Multimedia
 
+* [**Grayjay**](https://grayjay.app) - Open-source, privacy-focused, ad-free multi-platform media streamer that lets you follow creators and stream content from YouTube, Rumble, Twitch, SoundCloud, Apple Podcasts, etc. without registering. Subscriptions and playlists are saved locally and can be synced across devices (Android, Linux, Windows, macOS).  
+  **Tags:** `audio`, `media`, `player`, `podcast`, `video`
 * [**Spotify**](https://www.spotify.com/de-en/download/linux) - Music and podcast streaming service. Official client available via Snap and .deb packages. No official RPM support, but a maintained RPM package is provided by negativo17.org. A community-maintained Flatpak version is also available via Flathub.  
   **Tags:** `audio`, `media`, `player`, `podcast`, `streaming`
 * [**VLC**](https://www.videolan.org) - Open-source, cross-platform media player supporting nearly all audio and video codecs without external dependencies. Offers advanced playback controls, streaming support, subtitle synchronization, and broad format compatibility. Developed by the non-profit VideoLAN in France.  

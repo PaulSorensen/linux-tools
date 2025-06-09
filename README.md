@@ -8,7 +8,7 @@
 [![Badge](https://img.shields.io/badge/Python-3.6%2B-007ee7?logo=python&logoColor=white)](https://python.org)
 [![Badge](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-dab728?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/paulsorensen)
 
-Linux Tools is a comprehensive list of applications and tools for Linux, as well as distributions.
+Linux Tools is a comprehensive, privacy-conscious list of applications and tools for Linux, as well as distributions.
 
 I created this list to organize what I personally use, find useful or interesting, and to inspire others.
 The project also includes a Python CLI application for managing and generating the list in multiple formats.

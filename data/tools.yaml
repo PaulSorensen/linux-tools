@@ -1058,3 +1058,14 @@
       - aria2
       - download
       - http
+  - title: Grayjay
+    section: 🖥️ Desktop Tools
+    category: Multimedia
+    description: Open-source, privacy-focused, ad-free multi-platform media streamer that lets you follow creators and stream content from YouTube, Rumble, Twitch, SoundCloud, Apple Podcasts, etc. without registering. Subscriptions and playlists are saved locally and can be synced across devices (Android, Linux, Windows, macOS).
+    url: https://grayjay.app
+    tags:
+      - audio
+      - media
+      - player
+      - podcast
+      - video
