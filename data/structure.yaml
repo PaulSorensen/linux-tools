@@ -43,6 +43,8 @@
       order:
     - name: Password Managers
       order:
+    - name: Compatibility Layers
+      order:
 🛢️ Server Tools:
   order: 2
   categories:

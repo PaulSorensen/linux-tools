@@ -75,6 +75,18 @@
         URL: https://filen.io
         Tags: backup, e2ee, privacy, sync
 
+    Compatibility Layers
+
+        Title: Bottles
+        Description: Open-source, user-friendly GUI for managing isolated Wine environments (called Bottles). Uses Wine under the hood, but downloads and manages its own builds internally. Includes built-in dependency handling, DXVK/VKD3D support, version control, and sandboxing. Designed to simplify running Windows apps and games on Linux.
+        URL: https://usebottles.com
+        Tags: windows, wine
+
+        Title: Wine
+        Description: Open-source compatibility layer that enables running native Windows applications on Linux without emulation. Implements Windows API calls using POSIX-compliant systems. Lightweight, with support for many applications, though compatibility can vary.
+        URL: https://www.winehq.org
+        Tags: windows, wine
+
     Development
 
         Title: Git
@@ -160,10 +172,15 @@
 
     Gaming
 
+        Title: Heroic Games Launcher
+        Description: Open-source launcher for running games from Epic Games, GOG, and Prime Gaming on Linux. Uses Wine or Proton under the hood, with support for DXVK/VKD3D, game-specific Wine prefixes, and custom launch options. Offers automatic login, savegame sync (via GOG Cloud or Heroic Cloud), and a modern GUI for managing non-native games.
+        URL: https://heroicgameslauncher.com
+        Tags: gaming, proton, windows, wine
+
         Title: Steam
         Description: Game distribution platform by Valve. On Linux, it supports both native and Windows games using Proton, a built-in compatibility layer. You can also add non-Steam Windows games and run them through Proton, and even old DOS games in combination with DOSBox. Offers official .deb package. For Fedora, I recommend installing it via RPM Fusion.
         URL: https://store.steampowered.com/about
-        Tags: gaming, proton
+        Tags: gaming, proton, windows
 
     Imaging
 

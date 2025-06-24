@@ -40,6 +40,13 @@
 * [**Filen**](https://filen.io) - Germany-based cloud storage provider offering true end-to-end encryption (E2EE). Only you can access your data, and not even Filen has the ability to decrypt it, making it a fully zero-knowledge platform. Supporting continuous sync, selective sync, flexible sync options (one-way, two-way, etc), network drive, WebDav, and Rclone. Mobile app let's you edit numerous files directly. Integrated encrypted notes.  
   **Tags:** `backup`, `e2ee`, `privacy`, `sync`
 
+### Compatibility Layers
+
+* [**Bottles**](https://usebottles.com) - Open-source, user-friendly GUI for managing isolated Wine environments (called Bottles). Uses Wine under the hood, but downloads and manages its own builds internally. Includes built-in dependency handling, DXVK/VKD3D support, version control, and sandboxing. Designed to simplify running Windows apps and games on Linux.  
+  **Tags:** `windows`, `wine`
+* [**Wine**](https://www.winehq.org) - Open-source compatibility layer that enables running native Windows applications on Linux without emulation. Implements Windows API calls using POSIX-compliant systems. Lightweight, with support for many applications, though compatibility can vary.  
+  **Tags:** `windows`, `wine`
+
 ### Development
 
 * [**Git**](https://git-scm.com) - Open-source distributed version control system for tracking changes to any type of file. Supports local and remote repositories, fast branching and merging, rebasing, stashing, patch workflows, and efficient handling of large projects. Created by Linus Torvalds and maintained by the Git community.  
@@ -84,8 +91,10 @@
 
 ### Gaming
 
+* [**Heroic Games Launcher**](https://heroicgameslauncher.com) - Open-source launcher for running games from Epic Games, GOG, and Prime Gaming on Linux. Uses Wine or Proton under the hood, with support for DXVK/VKD3D, game-specific Wine prefixes, and custom launch options. Offers automatic login, savegame sync (via GOG Cloud or Heroic Cloud), and a modern GUI for managing non-native games.  
+  **Tags:** `gaming`, `proton`, `windows`, `wine`
 * [**Steam**](https://store.steampowered.com/about) - Game distribution platform by Valve. On Linux, it supports both native and Windows games using Proton, a built-in compatibility layer. You can also add non-Steam Windows games and run them through Proton, and even old DOS games in combination with DOSBox. Offers official .deb package. For Fedora, I recommend installing it via RPM Fusion.  
-  **Tags:** `gaming`, `proton`
+  **Tags:** `gaming`, `proton`, `windows`
 
 ### Imaging
 

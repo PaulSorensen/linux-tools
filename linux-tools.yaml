@@ -94,6 +94,19 @@
           - e2ee
           - privacy
           - sync
+    Compatibility Layers:
+      - title: Bottles
+        description: Open-source, user-friendly GUI for managing isolated Wine environments (called Bottles). Uses Wine under the hood, but downloads and manages its own builds internally. Includes built-in dependency handling, DXVK/VKD3D support, version control, and sandboxing. Designed to simplify running Windows apps and games on Linux.
+        url: https://usebottles.com
+        tags:
+          - windows
+          - wine
+      - title: Wine
+        description: Open-source compatibility layer that enables running native Windows applications on Linux without emulation. Implements Windows API calls using POSIX-compliant systems. Lightweight, with support for many applications, though compatibility can vary.
+        url: https://www.winehq.org
+        tags:
+          - windows
+          - wine
     Development:
       - title: Git
         description: Open-source distributed version control system for tracking changes to any type of file. Supports local and remote repositories, fast branching and merging, rebasing, stashing, patch workflows, and efficient handling of large projects. Created by Linus Torvalds and maintained by the Git community.
@@ -213,12 +226,21 @@
           - p2p
           - privacy
     Gaming:
+      - title: Heroic Games Launcher
+        description: Open-source launcher for running games from Epic Games, GOG, and Prime Gaming on Linux. Uses Wine or Proton under the hood, with support for DXVK/VKD3D, game-specific Wine prefixes, and custom launch options. Offers automatic login, savegame sync (via GOG Cloud or Heroic Cloud), and a modern GUI for managing non-native games.
+        url: https://heroicgameslauncher.com
+        tags:
+          - gaming
+          - proton
+          - windows
+          - wine
       - title: Steam
         description: Game distribution platform by Valve. On Linux, it supports both native and Windows games using Proton, a built-in compatibility layer. You can also add non-Steam Windows games and run them through Proton, and even old DOS games in combination with DOSBox. Offers official .deb package. For Fedora, I recommend installing it via RPM Fusion.
         url: https://store.steampowered.com/about
         tags:
           - gaming
           - proton
+          - windows
     Imaging:
       - title: GIMP
         description: Open-source advanced image editor. Supports layers, masks, scripting, and a wide range of formats. Suitable for photo retouching, image composition, and graphic design. Not a direct comparison to Photoshop.

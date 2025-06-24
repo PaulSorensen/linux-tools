@@ -253,6 +253,7 @@
     tags:
       - gaming
       - proton
+      - windows
   - title: CoolerControl
     section: 🖥️ Desktop Tools
     category: Fan, Sensors & RGB
@@ -1069,3 +1070,29 @@
       - player
       - podcast
       - video
+  - title: Wine
+    section: 🖥️ Desktop Tools
+    category: Compatibility Layers
+    description: Open-source compatibility layer that enables running native Windows applications on Linux without emulation. Implements Windows API calls using POSIX-compliant systems. Lightweight, with support for many applications, though compatibility can vary.
+    url: https://www.winehq.org
+    tags:
+      - windows
+      - wine
+  - title: Bottles
+    section: 🖥️ Desktop Tools
+    category: Compatibility Layers
+    description: Open-source, user-friendly GUI for managing isolated Wine environments (called Bottles). Uses Wine under the hood, but downloads and manages its own builds internally. Includes built-in dependency handling, DXVK/VKD3D support, version control, and sandboxing. Designed to simplify running Windows apps and games on Linux.
+    url: https://usebottles.com
+    tags:
+      - windows
+      - wine
+  - title: Heroic Games Launcher
+    section: 🖥️ Desktop Tools
+    category: Gaming
+    description: Open-source launcher for running games from Epic Games, GOG, and Prime Gaming on Linux. Uses Wine or Proton under the hood, with support for DXVK/VKD3D, game-specific Wine prefixes, and custom launch options. Offers automatic login, savegame sync (via GOG Cloud or Heroic Cloud), and a modern GUI for managing non-native games.
+    url: https://heroicgameslauncher.com
+    tags:
+      - gaming
+      - proton
+      - windows
+      - wine

@@ -8,14 +8,12 @@
 [![Badge](https://img.shields.io/badge/Python-3.6%2B-007ee7?logo=python&logoColor=white)](https://python.org)
 [![Badge](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-dab728?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/paulsorensen)
 
-Linux Tools is a comprehensive, privacy-conscious list of applications and tools for Linux, as well as distributions.
+**Linux Tools** is a comprehensive, privacy-conscious list of applications and tools for Linux, as well as distributions.
 
 I created this list to organize what I personally use, find useful or interesting, and to inspire others.
 The project also includes a Python CLI application for managing and generating the list in multiple formats.
 
 While I originally built the CLI to manage my Linux tools list, the application itself is generic. You're more than welcome to fork the project and use it to build and manage your own list - whether for another platform, topic, or domain.
-
----
 
 ## Sections
 
@@ -26,8 +24,6 @@ The list is structured into the following main sections:
 - 🛠️ **Bootable Tools**
 - 💿 **Distributions**
 
----
-
 ## Available Formats
 
 The list is available in the following formats for easy integration with other applications:
@@ -36,8 +32,6 @@ The list is available in the following formats for easy integration with other a
 - [Text](/linux-tools.txt)
 - [JSON](/linux-tools.json)
 - [YAML](/linux-tools.yaml)
-
----
 
 ## CLI Application
 
@@ -53,6 +47,8 @@ To organize the list I've built a CLI application in Python, which is included i
 - Sections and categories can be manually reordered by priority.
 - Generate output in Markdown, Text, JSON, and YAML formats.
 - MVC-like project structure with helper classes for clean code organization.
+
+---
 
 ### Data Handling
 
@@ -115,16 +111,12 @@ To organize the list I've built a CLI application in Python, which is included i
 
 - **See the generated outputs** in the project root after using the CLI.
 
----
-
 ## Author
 
 **Paul Sørensen**  
 
 - Website: [https://paulsorensen.io](https://paulsorensen.io)  
 - GitHub: [https://github.com/paulsorensen](https://github.com/paulsorensen)
-
----
 
 ## Support
 
@@ -135,5 +127,3 @@ If you found this project useful, a small tip is appreciated ❤️
 
 This project is licensed under the MIT License.  
 See [LICENSE](LICENSE) for details.
-
----
