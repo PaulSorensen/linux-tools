@@ -684,9 +684,9 @@
         Tags: bsd, firewall, freebsd, networking, pkg, vpn
 
         Title: Proxmox Virtual Environment
-        Description: Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.
+        Description: Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.
         URL: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
-        Tags: containers, infrastructure, kvm, lxc, virtualization, vm
+        Tags: apt, containers, debian, infrastructure, kvm, lxc, virtualization, vm
 
         Title: TrueNAS CORE
         Description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.

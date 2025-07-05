@@ -962,10 +962,12 @@
           - pkg
           - vpn
       - title: Proxmox Virtual Environment
-        description: Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.
+        description: Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.
         url: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
         tags:
+          - apt
           - containers
+          - debian
           - infrastructure
           - kvm
           - lxc
