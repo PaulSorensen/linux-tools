@@ -225,6 +225,14 @@
           - filetransfer
           - p2p
           - privacy
+      - title: Syncthing
+        description: Open-source, peer-to-peer file synchronization tool for continuous, real-time sync between devices with no central server. Runs on Linux, Windows, macOS, FreeBSD, OpenBSD, NetBSD, Dragonfly, Illumos, and Solaris. Third-party Android app available.
+        url: https://syncthing.net
+        tags:
+          - filetransfer
+          - p2p
+          - privacy
+          - sync
     Gaming:
       - title: Heroic Games Launcher
         description: Open-source launcher for running games from Epic Games, GOG, and Prime Gaming on Linux. Uses Wine or Proton under the hood, with support for DXVK/VKD3D, game-specific Wine prefixes, and custom launch options. Offers automatic login, savegame sync (via GOG Cloud or Heroic Cloud), and a modern GUI for managing non-native games.
@@ -465,6 +473,36 @@
           - infrastructure
           - ssh
           - sysadmin
+    Cloud Storage:
+      - title: Nextcloud
+        description: Open-source, self-hosted platform for file sync, sharing, and collaboration. Includes integrated apps for storage, document editing, video chat, calendar, mail, automation, and groupware. Supports LDAP/SAML, granular access controls, encryption, and scalable deployments. Clients available for web, desktop, iOS, and Android.
+        url: https://nextcloud.com
+        tags:
+          - backup
+          - cloud
+          - groupware
+          - privacy
+          - storage
+          - sync
+      - title: OwnCloud Infinite Scale
+        description: Open-source, enterprise-grade file sync and sharing platform fully rewritten in Go. Features a modern microservices architecture, high-speed operation, S3/local storage support, integrated identity management, granular roles, versioning, Spaces, and GDPR compliance. Offers flexible deployment via Docker, systemd, or Kubernetes, and clients for web, desktop, iOS, and Android.
+        url: https://owncloud.com/infinite-scale
+        tags:
+          - backup
+          - cloud
+          - privacy
+          - storage
+          - sync
+      - title: Seafile
+        description: Open-source, self-hosted file sync and sharing platform with support for metadata, tags, granular permissions, and activity logging. Features real-time document editing (SeaDoc), Office file collaboration, knowledge bases (wikis), and efficient cross-platform sync via native clients for desktop, iOS, and Android. Offers optional end-to-end encryption at the library level, two-factor authentication, and server-side antivirus integration.
+        url: https://www.seafile.com
+        tags:
+          - backup
+          - cloud
+          - e2ee
+          - privacy
+          - storage
+          - sync
     Containerization:
       - title: K3s
         description: Open-source, lightweight, certified Kubernetes distribution optimized for edge, IoT, CI, and resource-constrained environments. Packaged as a single <70MB binary with minimal dependencies, it simplifies installation and reduces overhead. Includes a slim control plane, built-in components (containerd, Flannel, Traefik), and features like automatic TLS, node registration, and multi-arch support. Ideal for unattended deployments and remote locations. Originally developed by Rancher Labs and now a sandbox project under the CNCF.
@@ -579,6 +617,52 @@
           - media
           - streaming
           - video
+      - title: Navidrome
+        description: Open-source, self-hosted music server with a modern web interface and Subsonic API compatibility. Lightweight and fast, supports large music libraries, on-the-fly transcoding, and runs on Linux, macOS, FreeBSD, and Windows. Access via integrated web player, Android and iOS apps, desktop clients, Apple TV, Sonos, Alexa, Kodi, UPnP/DLNA, and other Subsonic-compatible players.
+        url: https://www.navidrome.org
+        tags:
+          - audio
+          - media
+          - music
+          - streaming
+    Messaging:
+      - title: Conduit
+        description: Open-source Matrix server written in Rust. Lightweight, fast, and easy to set up, suitable for running on resource-limited hardware like Raspberry Pi. Supports decentralized, real-time messaging, federation, and end-to-end encryption (E2EE). Integrates with Matrix clients on web, desktop, and mobile.
+        url: https://conduit.rs
+        tags:
+          - e2ee
+          - matrix
+          - messaging
+          - privacy
+      - title: Construct
+        description: Open-source Matrix server written in C++. Uses RocksDB for storage. Memory usage ranges from ~150MiB (fresh install) to ~1GiB (large rooms, long uptime). Supports decentralized real-time messaging, federation, and end-to-end encryption (E2EE). Compatible with Matrix clients on web, desktop, and mobile.
+        url: https://github.com/matrix-construct/construct
+        tags:
+          - e2ee
+          - matrix
+          - messaging
+          - privacy
+      - title: Ntfy
+        description: Open-source, push notification server using simple HTTP pub/sub. Send notifications from scripts or REST API to mobile apps (Android, iOS) and desktop via the web interface. Supports message priorities, attachments, action buttons, tags, and emojis.
+        url: https://ntfy.sh
+        tags:
+          - messaging
+          - notification
+      - title: SimpleX Chat
+        description: Open-source messaging server and client focused on metadata privacy. Uses ephemeral, unlinked message queues, 2-hop onion routing, and robust end-to-end encryption. No user profiles, persistent IDs, or stored messages. Supports Tor integration. Official clients for Linux, macOS, Windows, Android, and iOS.
+        url: https://simplex.chat
+        tags:
+          - e2ee
+          - messaging
+          - privacy
+      - title: Synapse
+        description: Open-source Matrix homeserver written in Python/Twisted, providing decentralized, real-time messaging and chat. Supports federation, end-to-end encryption, identity mapping, room and user management, and integrates with multiple Matrix clients (web, desktop, mobile).
+        url: https://github.com/element-hq/synapse
+        tags:
+          - e2ee
+          - matrix
+          - messaging
+          - privacy
     Monitoring:
       - title: Cert Expiry Bot
         description: Open-source lightweight Bash script that monitors SSL certificate expiration for multiple domains and sends Telegram alerts when certificates are nearing expiry. Other notification services can be easily implemented. It checks for expirations within configurable timeframes (defaulting to 14 and 7 days) and includes error handling for invalid domains or missing certificates. Easy to configure via a .conf file and designed to run unattended.
@@ -673,15 +757,6 @@
         url: https://libvirt.org
         tags:
           - emulation
-          - kvm
-          - virtualization
-          - vm
-      - title: Proxmox Virtual Environment
-        description: Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.
-        url: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
-        tags:
-          - containers
-          - infrastructure
           - kvm
           - virtualization
           - vm
@@ -865,7 +940,17 @@
           - pentest
           - privacy
           - security
-    Appliance OS:
+    Infrastructure:
+      - title: OPNsense
+        description: Open-source firewall and routing platform based on FreeBSD, originally forked from pfSense in 2014. Developed by Deciso, OPNsense emphasizes a modern and user-friendly web interface, frequent updates, and a transparent development model. It includes advanced networking features like traffic shaping, multi-WAN, high availability, and VPN support (OpenVPN, IPsec, WireGuard). Regular security patches and a strong plugin ecosystem make it suitable for both home labs and enterprise deployments.
+        url: https://opnsense.org
+        tags:
+          - bsd
+          - firewall
+          - freebsd
+          - networking
+          - pkg
+          - vpn
       - title: PfSense
         description: Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.
         url: https://www.pfsense.org
@@ -876,6 +961,16 @@
           - networking
           - pkg
           - vpn
+      - title: Proxmox Virtual Environment
+        description: Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.
+        url: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
+        tags:
+          - containers
+          - infrastructure
+          - kvm
+          - lxc
+          - virtualization
+          - vm
       - title: TrueNAS CORE
         description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.
         url: https://www.truenas.com/truenas-core

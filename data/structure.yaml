@@ -70,6 +70,10 @@
       order:
     - name: VPN
       order:
+    - name: Cloud Storage
+      order:
+    - name: Messaging
+      order:
 💿 Distributions:
   order: 4
   categories:
@@ -79,7 +83,7 @@
       order: 3
     - name: Lightweight
       order: 2
-    - name: Appliance OS
+    - name: Infrastructure
       order: 5
     - name: Unix-like
       order: 6

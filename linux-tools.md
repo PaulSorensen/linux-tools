@@ -88,6 +88,8 @@
   **Tags:** `filetransfer`, `ftp`, `s3`, `sftp`, `webdav`
 * [**LocalSend**](https://localsend.org) - Open-source, cross-platform tool for secure local file transfer over Wi-Fi. Uses end-to-end encrypted, peer-to-peer communication with no internet or central server required. Automatically discovers nearby devices with a clean, registration-free UI.  
   **Tags:** `filetransfer`, `p2p`, `privacy`
+* [**Syncthing**](https://syncthing.net) - Open-source, peer-to-peer file synchronization tool for continuous, real-time sync between devices with no central server. Runs on Linux, Windows, macOS, FreeBSD, OpenBSD, NetBSD, Dragonfly, Illumos, and Solaris. Third-party Android app available.  
+  **Tags:** `filetransfer`, `p2p`, `privacy`, `sync`
 
 ### Gaming
 
@@ -192,6 +194,15 @@
 * [**Ansible**](https://github.com/ansible/ansible) - Open-source automation tool for configuration management, software provisioning, and infrastructure orchestration. It allows administrators to define system state using YAML-based playbooks. Tasks include installing packages, configuring services, managing users, deploying applications, applying security policies, and provisioning cloud infrastructure. Ansible is agentless, and operates over SSH. Originally developed by Ansible, Inc., it's now maintained by Red Hat and widely adopted in enterprise environments.  
   **Tags:** `automation`, `devops`, `infrastructure`, `ssh`, `sysadmin`
 
+### Cloud Storage
+
+* [**Nextcloud**](https://nextcloud.com) - Open-source, self-hosted platform for file sync, sharing, and collaboration. Includes integrated apps for storage, document editing, video chat, calendar, mail, automation, and groupware. Supports LDAP/SAML, granular access controls, encryption, and scalable deployments. Clients available for web, desktop, iOS, and Android.  
+  **Tags:** `backup`, `cloud`, `groupware`, `privacy`, `storage`, `sync`
+* [**OwnCloud Infinite Scale**](https://owncloud.com/infinite-scale) - Open-source, enterprise-grade file sync and sharing platform fully rewritten in Go. Features a modern microservices architecture, high-speed operation, S3/local storage support, integrated identity management, granular roles, versioning, Spaces, and GDPR compliance. Offers flexible deployment via Docker, systemd, or Kubernetes, and clients for web, desktop, iOS, and Android.  
+  **Tags:** `backup`, `cloud`, `privacy`, `storage`, `sync`
+* [**Seafile**](https://www.seafile.com) - Open-source, self-hosted file sync and sharing platform with support for metadata, tags, granular permissions, and activity logging. Features real-time document editing (SeaDoc), Office file collaboration, knowledge bases (wikis), and efficient cross-platform sync via native clients for desktop, iOS, and Android. Offers optional end-to-end encryption at the library level, two-factor authentication, and server-side antivirus integration.  
+  **Tags:** `backup`, `cloud`, `e2ee`, `privacy`, `storage`, `sync`
+
 ### Containerization
 
 * [**K3s**](https://k3s.io) - Open-source, lightweight, certified Kubernetes distribution optimized for edge, IoT, CI, and resource-constrained environments. Packaged as a single <70MB binary with minimal dependencies, it simplifies installation and reduces overhead. Includes a slim control plane, built-in components (containerd, Flannel, Traefik), and features like automatic TLS, node registration, and multi-arch support. Ideal for unattended deployments and remote locations. Originally developed by Rancher Labs and now a sandbox project under the CNCF.  
@@ -234,6 +245,21 @@
   **Tags:** `audio`, `audiobook`, `media`, `podcast`, `streaming`
 * [**Jellyfin**](https://jellyfin.org) - Open-source media server for organizing and streaming movies, shows, music, books, and photos. Includes features like live TV, DVR, and SyncPlay, which lets multiple users watch content in sync. Offers a polished, Netflix-style UI and streams to nearly any device, including web, smart TVs, iOS, Android, Roku, Kodi, and more.  
   **Tags:** `audio`, `media`, `streaming`, `video`
+* [**Navidrome**](https://www.navidrome.org) - Open-source, self-hosted music server with a modern web interface and Subsonic API compatibility. Lightweight and fast, supports large music libraries, on-the-fly transcoding, and runs on Linux, macOS, FreeBSD, and Windows. Access via integrated web player, Android and iOS apps, desktop clients, Apple TV, Sonos, Alexa, Kodi, UPnP/DLNA, and other Subsonic-compatible players.  
+  **Tags:** `audio`, `media`, `music`, `streaming`
+
+### Messaging
+
+* [**Conduit**](https://conduit.rs) - Open-source Matrix server written in Rust. Lightweight, fast, and easy to set up, suitable for running on resource-limited hardware like Raspberry Pi. Supports decentralized, real-time messaging, federation, and end-to-end encryption (E2EE). Integrates with Matrix clients on web, desktop, and mobile.  
+  **Tags:** `e2ee`, `matrix`, `messaging`, `privacy`
+* [**Construct**](https://github.com/matrix-construct/construct) - Open-source Matrix server written in C++. Uses RocksDB for storage. Memory usage ranges from ~150MiB (fresh install) to ~1GiB (large rooms, long uptime). Supports decentralized real-time messaging, federation, and end-to-end encryption (E2EE). Compatible with Matrix clients on web, desktop, and mobile.  
+  **Tags:** `e2ee`, `matrix`, `messaging`, `privacy`
+* [**Ntfy**](https://ntfy.sh) - Open-source, push notification server using simple HTTP pub/sub. Send notifications from scripts or REST API to mobile apps (Android, iOS) and desktop via the web interface. Supports message priorities, attachments, action buttons, tags, and emojis.  
+  **Tags:** `messaging`, `notification`
+* [**SimpleX Chat**](https://simplex.chat) - Open-source messaging server and client focused on metadata privacy. Uses ephemeral, unlinked message queues, 2-hop onion routing, and robust end-to-end encryption. No user profiles, persistent IDs, or stored messages. Supports Tor integration. Official clients for Linux, macOS, Windows, Android, and iOS.  
+  **Tags:** `e2ee`, `messaging`, `privacy`
+* [**Synapse**](https://github.com/element-hq/synapse) - Open-source Matrix homeserver written in Python/Twisted, providing decentralized, real-time messaging and chat. Supports federation, end-to-end encryption, identity mapping, room and user management, and integrates with multiple Matrix clients (web, desktop, mobile).  
+  **Tags:** `e2ee`, `matrix`, `messaging`, `privacy`
 
 ### Monitoring
 
@@ -268,8 +294,6 @@
 
 * [**Libvirt**](https://libvirt.org) - Abstraction layer and management API for virtual machines. Interacts with KVM and QEMU to manage VM lifecycle, storage, and networking. Provides a consistent interface for automation and system integration.  
   **Tags:** `emulation`, `kvm`, `virtualization`, `vm`
-* [**Proxmox Virtual Environment**](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.  
-  **Tags:** `containers`, `infrastructure`, `kvm`, `virtualization`, `vm`
 * [**QEMU**](https://www.qemu.org) - User-space emulator and virtualizer that provides full-system emulation. When paired with KVM - a Linux kernel module that enables hardware-assisted virtualization, QEMU can run VMs with near-native performance by executing code directly on the host CPU. Commonly used with libvirt, which provides an abstraction layer and management tools for virtual environments.  
   **Tags:** `emulation`, `kvm`, `virtualization`, `vm`
 * [**Virtual Machine Manager**](https://virt-manager.org) - Graphical frontend for libvirt. Allows users to create, configure, and manage virtual machines using QEMU/KVM through a user-friendly interface. Supports snapshots, live migration, virtual networks, and storage pools.  
@@ -335,10 +359,14 @@
 * [**ParrotOS Security Edition**](https://parrotsec.org/download) - Open-source Debian-based penetration testing distribution focused on security, privacy, and forensics. Ships with a full suite of preinstalled tools for vulnerability assessment, exploitation, reverse engineering, cryptography, and digital forensics. Can be used as a live system, WSL, deployed in Docker, or installed by converting an existing Debian system.  
   **Tags:** `apt`, `debian`, `desktop`, `pentest`, `privacy`, `security`
 
-### Appliance OS
+### Infrastructure
 
+* [**OPNsense**](https://opnsense.org) - Open-source firewall and routing platform based on FreeBSD, originally forked from pfSense in 2014. Developed by Deciso, OPNsense emphasizes a modern and user-friendly web interface, frequent updates, and a transparent development model. It includes advanced networking features like traffic shaping, multi-WAN, high availability, and VPN support (OpenVPN, IPsec, WireGuard). Regular security patches and a strong plugin ecosystem make it suitable for both home labs and enterprise deployments.  
+  **Tags:** `bsd`, `firewall`, `freebsd`, `networking`, `pkg`, `vpn`
 * [**PfSense**](https://www.pfsense.org) - Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.  
   **Tags:** `bsd`, `firewall`, `freebsd`, `networking`, `pkg`, `vpn`
+* [**Proxmox Virtual Environment**](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.  
+  **Tags:** `containers`, `infrastructure`, `kvm`, `lxc`, `virtualization`, `vm`
 * [**TrueNAS CORE**](https://www.truenas.com/truenas-core) - Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.  
   **Tags:** `bsd`, `freebsd`, `media`, `nas`, `networking`, `pkg`, `storage`, `streaming`, `virtualization`, `vm`
 * [**TrueNAS SCALE**](https://www.truenas.com/truenas-scale) - Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).  

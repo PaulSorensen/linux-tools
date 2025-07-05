@@ -645,14 +645,15 @@
       - nosql
       - sql
   - title: Proxmox Virtual Environment
-    section: 🛢️ Server Tools
-    category: Virtualization
+    section: 💿 Distributions
+    category: Infrastructure
     description: Open-source server virtualization platform that combines KVM for full virtualization and LXC for lightweight containers. Proxmox VE includes web-based management, clustering, live migration, high availability, software-defined networking, and storage support via ZFS, Ceph, and LVM.
     url: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
     tags:
       - containers
       - infrastructure
       - kvm
+      - lxc
       - virtualization
       - vm
   - title: Jellyfin
@@ -852,7 +853,7 @@
       - server
   - title: PfSense
     section: 💿 Distributions
-    category: Appliance OS
+    category: Infrastructure
     description: Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.
     url: https://www.pfsense.org
     tags:
@@ -864,7 +865,7 @@
       - vpn
   - title: TrueNAS CORE
     section: 💿 Distributions
-    category: Appliance OS
+    category: Infrastructure
     description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.
     url: https://www.truenas.com/truenas-core
     tags:
@@ -880,7 +881,7 @@
       - vm
   - title: TrueNAS SCALE
     section: 💿 Distributions
-    category: Appliance OS
+    category: Infrastructure
     description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).
     url: https://www.truenas.com/truenas-scale
     tags:
@@ -1096,3 +1097,117 @@
       - proton
       - windows
       - wine
+  - title: OPNsense
+    section: 💿 Distributions
+    category: Infrastructure
+    description: Open-source firewall and routing platform based on FreeBSD, originally forked from pfSense in 2014. Developed by Deciso, OPNsense emphasizes a modern and user-friendly web interface, frequent updates, and a transparent development model. It includes advanced networking features like traffic shaping, multi-WAN, high availability, and VPN support (OpenVPN, IPsec, WireGuard). Regular security patches and a strong plugin ecosystem make it suitable for both home labs and enterprise deployments.
+    url: https://opnsense.org
+    tags:
+      - bsd
+      - firewall
+      - freebsd
+      - networking
+      - pkg
+      - vpn
+  - title: OwnCloud Infinite Scale
+    section: 🛢️ Server Tools
+    category: Cloud Storage
+    description: Open-source, enterprise-grade file sync and sharing platform fully rewritten in Go. Features a modern microservices architecture, high-speed operation, S3/local storage support, integrated identity management, granular roles, versioning, Spaces, and GDPR compliance. Offers flexible deployment via Docker, systemd, or Kubernetes, and clients for web, desktop, iOS, and Android.
+    url: https://owncloud.com/infinite-scale
+    tags:
+      - backup
+      - cloud
+      - privacy
+      - storage
+      - sync
+  - title: Nextcloud
+    section: 🛢️ Server Tools
+    category: Cloud Storage
+    description: Open-source, self-hosted platform for file sync, sharing, and collaboration. Includes integrated apps for storage, document editing, video chat, calendar, mail, automation, and groupware. Supports LDAP/SAML, granular access controls, encryption, and scalable deployments. Clients available for web, desktop, iOS, and Android.
+    url: https://nextcloud.com
+    tags:
+      - backup
+      - cloud
+      - groupware
+      - privacy
+      - storage
+      - sync
+  - title: Seafile
+    section: 🛢️ Server Tools
+    category: Cloud Storage
+    description: Open-source, self-hosted file sync and sharing platform with support for metadata, tags, granular permissions, and activity logging. Features real-time document editing (SeaDoc), Office file collaboration, knowledge bases (wikis), and efficient cross-platform sync via native clients for desktop, iOS, and Android. Offers optional end-to-end encryption at the library level, two-factor authentication, and server-side antivirus integration.
+    url: https://www.seafile.com
+    tags:
+      - backup
+      - cloud
+      - e2ee
+      - privacy
+      - storage
+      - sync
+  - title: Syncthing
+    section: 🖥️ Desktop Tools
+    category: File Transfer
+    description: Open-source, peer-to-peer file synchronization tool for continuous, real-time sync between devices with no central server. Runs on Linux, Windows, macOS, FreeBSD, OpenBSD, NetBSD, Dragonfly, Illumos, and Solaris. Third-party Android app available.
+    url: https://syncthing.net
+    tags:
+      - filetransfer
+      - p2p
+      - privacy
+      - sync
+  - title: Navidrome
+    section: 🛢️ Server Tools
+    category: Media
+    description: Open-source, self-hosted music server with a modern web interface and Subsonic API compatibility. Lightweight and fast, supports large music libraries, on-the-fly transcoding, and runs on Linux, macOS, FreeBSD, and Windows. Access via integrated web player, Android and iOS apps, desktop clients, Apple TV, Sonos, Alexa, Kodi, UPnP/DLNA, and other Subsonic-compatible players.
+    url: https://www.navidrome.org
+    tags:
+      - audio
+      - media
+      - music
+      - streaming
+  - title: Synapse
+    section: 🛢️ Server Tools
+    category: Messaging
+    description: Open-source Matrix homeserver written in Python/Twisted, providing decentralized, real-time messaging and chat. Supports federation, end-to-end encryption, identity mapping, room and user management, and integrates with multiple Matrix clients (web, desktop, mobile).
+    url: https://github.com/element-hq/synapse
+    tags:
+      - e2ee
+      - matrix
+      - messaging
+      - privacy
+  - title: Conduit
+    section: 🛢️ Server Tools
+    category: Messaging
+    description: Open-source Matrix server written in Rust. Lightweight, fast, and easy to set up, suitable for running on resource-limited hardware like Raspberry Pi. Supports decentralized, real-time messaging, federation, and end-to-end encryption (E2EE). Integrates with Matrix clients on web, desktop, and mobile.
+    url: https://conduit.rs
+    tags:
+      - e2ee
+      - matrix
+      - messaging
+      - privacy
+  - title: Construct
+    section: 🛢️ Server Tools
+    category: Messaging
+    description: Open-source Matrix server written in C++. Uses RocksDB for storage. Memory usage ranges from ~150MiB (fresh install) to ~1GiB (large rooms, long uptime). Supports decentralized real-time messaging, federation, and end-to-end encryption (E2EE). Compatible with Matrix clients on web, desktop, and mobile.
+    url: https://github.com/matrix-construct/construct
+    tags:
+      - e2ee
+      - matrix
+      - messaging
+      - privacy
+  - title: Ntfy
+    section: 🛢️ Server Tools
+    category: Messaging
+    description: Open-source, push notification server using simple HTTP pub/sub. Send notifications from scripts or REST API to mobile apps (Android, iOS) and desktop via the web interface. Supports message priorities, attachments, action buttons, tags, and emojis.
+    url: https://ntfy.sh
+    tags:
+      - messaging
+      - notification
+  - title: SimpleX Chat
+    section: 🛢️ Server Tools
+    category: Messaging
+    description: Open-source messaging server and client focused on metadata privacy. Uses ephemeral, unlinked message queues, 2-hop onion routing, and robust end-to-end encryption. No user profiles, persistent IDs, or stored messages. Supports Tor integration. Official clients for Linux, macOS, Windows, Android, and iOS.
+    url: https://simplex.chat
+    tags:
+      - e2ee
+      - messaging
+      - privacy
