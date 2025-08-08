@@ -445,6 +445,13 @@
         url: https://github.com/fastfetch-cli/fastfetch
         tags:
           - sysinfo
+    System Utilities:
+      - title: PowerTOP
+        description: CLI tool to diagnose and reduce power consumption. Shows CPU C-states, wakeups, device power usage, and kernel/userland tunables. Interactive mode lets you toggle settings; `--auto-tune` applies recommended powersaving settings (temporary until reboot unless automated via a systemd oneshot service). Lets you cut idle draw without breaking services and can significantly reduce consumption on servers.
+        url: https://github.com/fenrus75/powertop
+        tags:
+          - power
+          - sysinfo
     VPN:
       - title: NordVPN
         description: Panama-based, privacy-focused VPN provider with a strict no-log policy, strong encryption, and ~8000 servers in 118 countries. Owned by Nord Security, a Netherlands-based cybersecurity company. Known for consistent speed and a strong stance on privacy. Their client works great on Linux.
@@ -599,6 +606,13 @@
         tags:
           - nosql
           - sql
+    Home Automation:
+      - title: Home Assistant
+        description: Open-source home automation platform focused on local control and privacy. Supports thousands of integrations with smart devices and services, enabling automation, dashboards, and voice control without reliance on cloud providers.
+        url: https://www.home-assistant.io
+        tags:
+          - home-automation
+          - iot
     Media:
       - title: Audiobookshelf
         description: Open-source audiobook and podcast server with real-time streaming, metadata editing, multi-user playback sync, Chromecast support, and mobile apps. Includes chapter editing, e-book support, and automated metadata backups. Requires WebSocket support when reverse proxied.
@@ -961,6 +975,24 @@
           - networking
           - pkg
           - vpn
+      - title: Proxmox Backup Server
+        description: Open-source enterprise backup solution built on Debian. Designed for efficient VM, container, and file-level backups, with features like deduplication, compression, encryption, incremental snapshots (Block-level), and fast, reliable restores. Offers both web-based management and a comprehensive CLI/API.
+        url: https://www.proxmox.com/en/products/proxmox-backup-server/overview
+        tags:
+          - apt
+          - backup
+          - debian
+          - deduplication
+          - infrastructure
+      - title: Proxmox Mail Gateway
+        description: Open-source, Debian-based mail proxy and security platform. Positioned between your firewall and mail server, it filters incoming and outgoing SMTP traffic—blocking spam, viruses, Trojans, and phishing with features like ClamAV antivirus, SpamAssassin spam detection, SPF, grey-listing, tracking and logs, quarantine, object-oriented rule system, HA clustering, DKIM signing, and a web-based management GUI.
+        url: https://www.proxmox.com/en/products/proxmox-mail-gateway/overview
+        tags:
+          - apt
+          - debian
+          - email
+          - infrastructure
+          - security
       - title: Proxmox Virtual Environment
         description: Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.
         url: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview

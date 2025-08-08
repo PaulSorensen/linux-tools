@@ -74,6 +74,8 @@
       order:
     - name: Messaging
       order:
+    - name: Home Automation
+      order:
 💿 Distributions:
   order: 4
   categories:

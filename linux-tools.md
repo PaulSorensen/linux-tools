@@ -180,6 +180,11 @@
 * [**Fastfetch**](https://github.com/fastfetch-cli/fastfetch) - Open-source system information CLI tool inspired by Neofetch (archived in 2024). Displays system details with customizable ASCII or logo output and supports a wide range of configurations.  
   **Tags:** `sysinfo`
 
+### System Utilities
+
+* [**PowerTOP**](https://github.com/fenrus75/powertop) - CLI tool to diagnose and reduce power consumption. Shows CPU C-states, wakeups, device power usage, and kernel/userland tunables. Interactive mode lets you toggle settings; `--auto-tune` applies recommended powersaving settings (temporary until reboot unless automated via a systemd oneshot service). Lets you cut idle draw without breaking services and can significantly reduce consumption on servers.  
+  **Tags:** `power`, `sysinfo`
+
 ### VPN
 
 * [**NordVPN**](https://nordvpn.com) - Panama-based, privacy-focused VPN provider with a strict no-log policy, strong encryption, and ~8000 servers in 118 countries. Owned by Nord Security, a Netherlands-based cybersecurity company. Known for consistent speed and a strong stance on privacy. Their client works great on Linux.  
@@ -238,6 +243,11 @@
 
 * [**DBeaver**](https://dbeaver.io) - Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.  
   **Tags:** `nosql`, `sql`
+
+### Home Automation
+
+* [**Home Assistant**](https://www.home-assistant.io) - Open-source home automation platform focused on local control and privacy. Supports thousands of integrations with smart devices and services, enabling automation, dashboards, and voice control without reliance on cloud providers.  
+  **Tags:** `home-automation`, `iot`
 
 ### Media
 
@@ -365,6 +375,10 @@
   **Tags:** `bsd`, `firewall`, `freebsd`, `networking`, `pkg`, `vpn`
 * [**PfSense**](https://www.pfsense.org) - Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.  
   **Tags:** `bsd`, `firewall`, `freebsd`, `networking`, `pkg`, `vpn`
+* [**Proxmox Backup Server**](https://www.proxmox.com/en/products/proxmox-backup-server/overview) - Open-source enterprise backup solution built on Debian. Designed for efficient VM, container, and file-level backups, with features like deduplication, compression, encryption, incremental snapshots (Block-level), and fast, reliable restores. Offers both web-based management and a comprehensive CLI/API.  
+  **Tags:** `apt`, `backup`, `debian`, `deduplication`, `infrastructure`
+* [**Proxmox Mail Gateway**](https://www.proxmox.com/en/products/proxmox-mail-gateway/overview) - Open-source, Debian-based mail proxy and security platform. Positioned between your firewall and mail server, it filters incoming and outgoing SMTP traffic—blocking spam, viruses, Trojans, and phishing with features like ClamAV antivirus, SpamAssassin spam detection, SPF, grey-listing, tracking and logs, quarantine, object-oriented rule system, HA clustering, DKIM signing, and a web-based management GUI.  
+  **Tags:** `apt`, `debian`, `email`, `infrastructure`, `security`
 * [**Proxmox Virtual Environment**](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.  
   **Tags:** `apt`, `containers`, `debian`, `infrastructure`, `kvm`, `lxc`, `virtualization`, `vm`
 * [**TrueNAS CORE**](https://www.truenas.com/truenas-core) - Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.  

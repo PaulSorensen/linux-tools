@@ -337,6 +337,13 @@
         URL: https://github.com/fastfetch-cli/fastfetch
         Tags: sysinfo
 
+    System Utilities
+
+        Title: PowerTOP
+        Description: CLI tool to diagnose and reduce power consumption. Shows CPU C-states, wakeups, device power usage, and kernel/userland tunables. Interactive mode lets you toggle settings; `--auto-tune` applies recommended powersaving settings (temporary until reboot unless automated via a systemd oneshot service). Lets you cut idle draw without breaking services and can significantly reduce consumption on servers.
+        URL: https://github.com/fenrus75/powertop
+        Tags: power, sysinfo
+
     VPN
 
         Title: NordVPN
@@ -442,6 +449,13 @@
         Description: Universal database tool available in a free, open-source Community edition and a commercial PRO version. The Community edition supports all databases with a JDBC driver, including MySQL, PostgreSQL, Oracle, SQL Server, SQLite, and many more. It features a SQL editor, ER diagrams, data browser, schema tools, and import/export utilities. The PRO version adds advanced features like NoSQL and cloud database support, visual query building, metadata tools, and AI-assisted SQL.
         URL: https://dbeaver.io
         Tags: nosql, sql
+
+    Home Automation
+
+        Title: Home Assistant
+        Description: Open-source home automation platform focused on local control and privacy. Supports thousands of integrations with smart devices and services, enabling automation, dashboards, and voice control without reliance on cloud providers.
+        URL: https://www.home-assistant.io
+        Tags: home-automation, iot
 
     Media
 
@@ -682,6 +696,16 @@
         Description: Open-source firewall, router, and VPN platform based on FreeBSD, developed by Netgate. pfSense is widely deployed in home labs, enterprises, and cloud environments. It offers advanced firewall rules, routing features, traffic shaping, multi-WAN support, and built-in VPN protocols like OpenVPN, IPsec, and WireGuard. A fully open-source Community Edition (CE) is maintained alongside the commercial Plus edition.
         URL: https://www.pfsense.org
         Tags: bsd, firewall, freebsd, networking, pkg, vpn
+
+        Title: Proxmox Backup Server
+        Description: Open-source enterprise backup solution built on Debian. Designed for efficient VM, container, and file-level backups, with features like deduplication, compression, encryption, incremental snapshots (Block-level), and fast, reliable restores. Offers both web-based management and a comprehensive CLI/API.
+        URL: https://www.proxmox.com/en/products/proxmox-backup-server/overview
+        Tags: apt, backup, debian, deduplication, infrastructure
+
+        Title: Proxmox Mail Gateway
+        Description: Open-source, Debian-based mail proxy and security platform. Positioned between your firewall and mail server, it filters incoming and outgoing SMTP traffic—blocking spam, viruses, Trojans, and phishing with features like ClamAV antivirus, SpamAssassin spam detection, SPF, grey-listing, tracking and logs, quarantine, object-oriented rule system, HA clustering, DKIM signing, and a web-based management GUI.
+        URL: https://www.proxmox.com/en/products/proxmox-mail-gateway/overview
+        Tags: apt, debian, email, infrastructure, security
 
         Title: Proxmox Virtual Environment
         Description: Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.
