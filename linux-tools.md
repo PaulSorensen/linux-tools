@@ -119,6 +119,8 @@
   **Tags:** `boot`, `iso`, `liveusb`, `media-creation`
 * [**Ventoy**](https://www.ventoy.net) - Open-source tool for creating multiboot USB drives. Supports direct booting of ISO, WIM, IMG, VHD(x), and EFI files without extraction. Write Ventoy to a USB, copy files onto it, and boot from them via a dynamic GRUB-based menu. Compatible with BIOS and UEFI (Secure Boot), MBR and GPT, and tested with 1200+ OS images. Supports persistence, auto-install scripts, and plugin-based customization.  
   **Tags:** `boot`, `iso`, `liveusb`, `media-creation`
+* [**WoeUSB-ng**](https://github.com/woeusb/woeusb-ng) - Open-source successor to the original WoeUSB project. Creates bootable Windows USB installers from ISO images on Linux with support for Windows 7–11, Legacy BIOS, and UEFI. Automates USB partitioning, NTFS formatting, and bootloader setup.  
+  **Tags:** `boot`, `iso`, `liveusb`, `media-creation`
 
 ### Messaging
 
@@ -129,8 +131,14 @@
 
 ### Multimedia
 
+* [**Audacious**](https://audacious-media-player.org) - Open-source audio player inspired by the classic Winamp interface. Supports a wide range of audio formats, playlists, plugins, equalizer settings, and both GTK and Winamp-style UIs. Lightweight and suitable for large local music libraries.  
+  **Tags:** `audio`, `media`, `player`
+* [**Feishin**](https://github.com/jeffvli/feishin) - Open-source desktop client for Navidrome and other Subsonic-compatible servers. Provides a modern Spotify-like interface with playlists, search, queue management, and local caching.  
+  **Tags:** `audio`, `media`, `player`, `streaming`
 * [**Grayjay**](https://grayjay.app) - Open-source, privacy-focused, ad-free multi-platform media streamer that lets you follow creators and stream content from YouTube, Rumble, Twitch, SoundCloud, Apple Podcasts, etc. without registering. Subscriptions and playlists are saved locally and can be synced across devices (Android, Linux, Windows, macOS).  
   **Tags:** `audio`, `media`, `player`, `podcast`, `video`
+* [**Kid3**](https://kid3.kde.org) - Open-source audio tag editor supporting ID3, Vorbis, FLAC, MP4, Opus, and other formats. Provides batch editing, tag conversion, filename-to-tag tools, and cover art handling.  
+  **Tags:** `audio`, `media`
 * [**Spotify**](https://www.spotify.com/de-en/download/linux) - Music and podcast streaming service. Official client available via Snap and .deb packages. No official RPM support, but a maintained RPM package is provided by negativo17.org. A community-maintained Flatpak version is also available via Flathub.  
   **Tags:** `audio`, `media`, `player`, `podcast`, `streaming`
 * [**VLC**](https://www.videolan.org) - Open-source, cross-platform media player supporting nearly all audio and video codecs without external dependencies. Offers advanced playback controls, streaming support, subtitle synchronization, and broad format compatibility. Developed by the non-profit VideoLAN in France.  
@@ -145,6 +153,8 @@
 
 ### Office and Productivity
 
+* [**GLabels**](https://github.com/j-evins/glabels-gtk) - Open-source label and barcode designer. Supports templates, custom layouts, barcodes, and data merge. Works with Dymo and other common label printers.  
+  **Tags:** `design`, `print`
 * [**Joplin**](https://joplinapp.org) - Open-source, privacy-first note-taking app with full end-to-end encryption (E2EE). It works across all major platforms and syncs seamlessly between devices. You can store your notes in Joplin Cloud or use Dropbox, OneDrive, Nextcloud, WebDAV, local file system, or S3-compatible storage – including free Cloudflare R2. It’s very flexible and secure.  
   **Tags:** `e2ee`, `notes`, `privacy`, `sync`
 * [**LibreOffice**](https://www.libreoffice.org) - Open-source, full-featured office suite maintained by The Document Foundation. Includes Writer, Calc, Impress, Draw, and Math for working with documents, spreadsheets, presentations, vector graphics, and formulas. Offers native ODF support, and reasonable compatibility with Microsoft Office formats.  
@@ -153,6 +163,8 @@
   **Tags:** `editor`, `markdown`
 * [**OnlyOffice**](https://www.onlyoffice.com) - Latvia-based, privacy-first, open-source office suite with no telemetry. Offers encryption and integrates with platforms like Nextcloud. Offers documents, spreadsheets, presentations, and PDFs. Great support for Microsoft Office Word documents, and Excel sheets. Modern, sleek and familiar user-interface.  
   **Tags:** `documents`, `office`, `pdf`, `spreadsheets`
+* [**UltiMaker Cura**](https://github.com/ultimaker/cura) - Open-source 3D printing slicer for converting 3D models into G-code for FDM printers. Supports standard printing profiles, custom settings, model transformation tools, and preview of print paths. Works with a wide range of printers.  
+  **Tags:** `3dprint`
 
 ### Password Managers
 

@@ -231,6 +231,11 @@
         URL: https://www.ventoy.net
         Tags: boot, iso, liveusb, media-creation
 
+        Title: WoeUSB-ng
+        Description: Open-source successor to the original WoeUSB project. Creates bootable Windows USB installers from ISO images on Linux with support for Windows 7–11, Legacy BIOS, and UEFI. Automates USB partitioning, NTFS formatting, and bootloader setup.
+        URL: https://github.com/woeusb/woeusb-ng
+        Tags: boot, iso, liveusb, media-creation
+
     Messaging
 
         Title: Ferdium
@@ -245,10 +250,25 @@
 
     Multimedia
 
+        Title: Audacious
+        Description: Open-source audio player inspired by the classic Winamp interface. Supports a wide range of audio formats, playlists, plugins, equalizer settings, and both GTK and Winamp-style UIs. Lightweight and suitable for large local music libraries.
+        URL: https://audacious-media-player.org
+        Tags: audio, media, player
+
+        Title: Feishin
+        Description: Open-source desktop client for Navidrome and other Subsonic-compatible servers. Provides a modern Spotify-like interface with playlists, search, queue management, and local caching.
+        URL: https://github.com/jeffvli/feishin
+        Tags: audio, media, player, streaming
+
         Title: Grayjay
         Description: Open-source, privacy-focused, ad-free multi-platform media streamer that lets you follow creators and stream content from YouTube, Rumble, Twitch, SoundCloud, Apple Podcasts, etc. without registering. Subscriptions and playlists are saved locally and can be synced across devices (Android, Linux, Windows, macOS).
         URL: https://grayjay.app
         Tags: audio, media, player, podcast, video
+
+        Title: Kid3
+        Description: Open-source audio tag editor supporting ID3, Vorbis, FLAC, MP4, Opus, and other formats. Provides batch editing, tag conversion, filename-to-tag tools, and cover art handling.
+        URL: https://kid3.kde.org
+        Tags: audio, media
 
         Title: Spotify
         Description: Music and podcast streaming service. Official client available via Snap and .deb packages. No official RPM support, but a maintained RPM package is provided by negativo17.org. A community-maintained Flatpak version is also available via Flathub.
@@ -274,6 +294,11 @@
 
     Office and Productivity
 
+        Title: GLabels
+        Description: Open-source label and barcode designer. Supports templates, custom layouts, barcodes, and data merge. Works with Dymo and other common label printers.
+        URL: https://github.com/j-evins/glabels-gtk
+        Tags: design, print
+
         Title: Joplin
         Description: Open-source, privacy-first note-taking app with full end-to-end encryption (E2EE). It works across all major platforms and syncs seamlessly between devices. You can store your notes in Joplin Cloud or use Dropbox, OneDrive, Nextcloud, WebDAV, local file system, or S3-compatible storage – including free Cloudflare R2. It’s very flexible and secure.
         URL: https://joplinapp.org
@@ -293,6 +318,11 @@
         Description: Latvia-based, privacy-first, open-source office suite with no telemetry. Offers encryption and integrates with platforms like Nextcloud. Offers documents, spreadsheets, presentations, and PDFs. Great support for Microsoft Office Word documents, and Excel sheets. Modern, sleek and familiar user-interface.
         URL: https://www.onlyoffice.com
         Tags: documents, office, pdf, spreadsheets
+
+        Title: UltiMaker Cura
+        Description: Open-source 3D printing slicer for converting 3D models into G-code for FDM printers. Supports standard printing profiles, custom settings, model transformation tools, and preview of print paths. Works with a wide range of printers.
+        URL: https://github.com/ultimaker/cura
+        Tags: 3dprint
 
     Password Managers
 

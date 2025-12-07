@@ -1251,3 +1251,55 @@
     tags:
       - home-automation
       - iot
+  - title: WoeUSB-ng
+    section: 🖥️ Desktop Tools
+    category: Media Creation
+    description: Open-source successor to the original WoeUSB project. Creates bootable Windows USB installers from ISO images on Linux with support for Windows 7–11, Legacy BIOS, and UEFI. Automates USB partitioning, NTFS formatting, and bootloader setup.
+    url: https://github.com/woeusb/woeusb-ng
+    tags:
+      - boot
+      - iso
+      - liveusb
+      - media-creation
+  - title: Kid3
+    section: 🖥️ Desktop Tools
+    category: Multimedia
+    description: Open-source audio tag editor supporting ID3, Vorbis, FLAC, MP4, Opus, and other formats. Provides batch editing, tag conversion, filename-to-tag tools, and cover art handling.
+    url: https://kid3.kde.org
+    tags:
+      - audio
+      - media
+  - title: Feishin
+    section: 🖥️ Desktop Tools
+    category: Multimedia
+    description: Open-source desktop client for Navidrome and other Subsonic-compatible servers. Provides a modern Spotify-like interface with playlists, search, queue management, and local caching.
+    url: https://github.com/jeffvli/feishin
+    tags:
+      - audio
+      - media
+      - player
+      - streaming
+  - title: Audacious
+    section: 🖥️ Desktop Tools
+    category: Multimedia
+    description: Open-source audio player inspired by the classic Winamp interface. Supports a wide range of audio formats, playlists, plugins, equalizer settings, and both GTK and Winamp-style UIs. Lightweight and suitable for large local music libraries.
+    url: https://audacious-media-player.org
+    tags:
+      - audio
+      - media
+      - player
+  - title: UltiMaker Cura
+    section: 🖥️ Desktop Tools
+    category: Office and Productivity
+    description: Open-source 3D printing slicer for converting 3D models into G-code for FDM printers. Supports standard printing profiles, custom settings, model transformation tools, and preview of print paths. Works with a wide range of printers.
+    url: https://github.com/ultimaker/cura
+    tags:
+      - 3dprint
+  - title: GLabels
+    section: 🖥️ Desktop Tools
+    category: Office and Productivity
+    description: Open-source label and barcode designer. Supports templates, custom layouts, barcodes, and data merge. Works with Dymo and other common label printers.
+    url: https://github.com/j-evins/glabels-gtk
+    tags:
+      - design
+      - print
