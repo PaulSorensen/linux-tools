@@ -6,8 +6,8 @@
  Author        : Paul Sørensen
  Website       : https://paulsorensen.io
  GitHub        : https://github.com/paulsorensen
- Version       : 1.0
- Last Modified : 2025/06/02 22:56:48
+ Version       : 1.1
+ Last Modified : 2026/02/24 15:45:10
 
  Description:
  MVC-structured CLI application for managing a Linux Tools database,

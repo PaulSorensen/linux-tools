@@ -17,5 +17,5 @@ class LayoutHelper:
     def header():
         """Display application header."""
         print(LayoutHelper.app_name())
-        print("© 2005 Paul Sørensen")
+        print("© 2026 Paul Sørensen")
         print()

@@ -73,6 +73,7 @@ To organize the list I've built a CLI application in Python, which is included i
 
 - **Python 3.6 or newer**
 - **ruamel.yaml**
+- **PyYAML**
 
 ---
 
@@ -90,8 +91,6 @@ To organize the list I've built a CLI application in Python, which is included i
    ```bash
    pip install -r requirements.txt
    ```
-
-   > `ruamel.yaml` is the only required third-party dependency.
 
 ---
 
