@@ -76,6 +76,8 @@
       order:
     - name: Home Automation
       order:
+    - name: AI
+      order:
 💿 Distributions:
   order: 4
   categories:

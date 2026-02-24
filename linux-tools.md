@@ -49,6 +49,10 @@
 
 ### Development
 
+* [**Claude Code**](https://code.claude.com) - AI-powered agent and CLI tool for interacting with local repositories and systems through natural language. Supports codebase-aware chat, file edits, refactoring, test generation, debugging, and general automation tasks such as scripting, system inspection, and workflow orchestration using Anthropic’s Claude models. Designed for terminal-first workflows and integration with existing development environments.  
+  **Tags:** `ai`, `automation`, `code`, `dev`, `sysadmin`
+* [**Codex**](https://openai.com/codex) - AI coding and general task agent from OpenAI that interprets natural language to generate, modify, test, and refactor code, as well as assist with broader automation tasks. Available as a cloud-hosted software engineering agent and as a local CLI that can read, change, run, and orchestrate workflows on a codebase. Provides project-aware actions, debugging support, and task automation beyond just code generation.  
+  **Tags:** `ai`, `automation`, `code`, `dev`, `sysadmin`
 * [**Git**](https://git-scm.com) - Open-source distributed version control system for tracking changes to any type of file. Supports local and remote repositories, fast branching and merging, rebasing, stashing, patch workflows, and efficient handling of large projects. Created by Linus Torvalds and maintained by the Git community.  
   **Tags:** `git`
 * [**Pycharm**](https://www.jetbrains.com/pycharm/download) - Feature-rich Python IDE by JetBrains with advanced editing, debugging, and project management features. Offers a free Community edition for personal and open-source use.  
@@ -62,9 +66,9 @@
 * [**VSCodium**](https://vscodium.com) - Open-source community-driven version of VSCode without telemetry or proprietary additions, hence Settings Sync and other Microsoft features are not available. Compatible with most VSCode extensions via the Open VSX registry or manual installation. Some Microsoft extensions (e.g., Copilot, Live Share, Python, Remote tools) are restricted by license or code checks. Replacements exist for common use cases like C/C++, Python, and SSH remote editing.  
   **Tags:** `code`, `dev`, `editor`, `vscode`
 * [**Visual Studio Code**](https://code.visualstudio.com) - Popular code editor with a strong extension ecosystem and deep GitHub integration, including Copilot. Supports debugging, terminals, and language servers out of the box.  
-  **Tags:** `code`, `copilot`, `dev`, `editor`, `vscode`
-* [**Zed**](https://zed.dev) - Open-source code editor with multibuffer editing, built-in terminal, native Git support, remote development, and Vim bindings. Includes AI-assisted coding via inline transformations and a context-aware assistant panel powered by Claude Sonnet and Zed’s own open-source LLM, Zeta.  
-  **Tags:** `code`, `dev`, `editor`
+  **Tags:** `ai`, `code`, `dev`, `editor`, `vscode`
+* [**Zed**](https://zed.dev) - Open-source code editor built in Rust with multibuffer editing, built-in terminal, native Git support, remote development, and optional Vim bindings. Provides integrated AI features including edit predictions, inline transformations, and a context-aware agent panel. Supports external agents such as Claude, Codex, and Gemini, a built-in Zed agent that can run multiple LLM providers (including local and hosted models), and additional integrations via the ACP (Agent Client Protocol) Registry.  
+  **Tags:** `ai`, `code`, `dev`, `editor`
 
 ### Download Managers
 
@@ -203,6 +207,17 @@
   **Tags:** `encryption`, `privacy`, `vpn`
 
 ## 🛢️ Server Tools
+
+### AI
+
+* [**Ollama**](https://ollama.com) - Open-source local LLM runtime and model manager for running, updating, and serving large language models via a simple CLI and HTTP API. Supports CPU and GPU acceleration, local model storage, and integration with editors, agents, and automation tools. Commonly used as a lightweight backend for local inference and self-hosted AI workflows.  
+  **Tags:** `ai`, `llm`
+* [**Open WebUI**](https://openwebui.com) - Open-source web-based user interface for interacting with local and self-hosted large language models through a ChatGPT-like interface. Commonly used as a frontend for Ollama and other local LLM backends, providing chat history, model selection, prompt management, and multi-session conversations. Suitable for running as a self-hosted web service.  
+  **Tags:** `ai`, `llm`
+* [**OpenClaw**](https://openclaw.ai) - Open-source autonomous AI agent platform that connects large language models to real-world actions through chat interfaces such as WhatsApp, Telegram, Discord, and Slack. Supports coding tasks, email and calendar management, and workflow automation by orchestrating LLM-driven tools and integrations. Supports installing additional AgentSkills from clawhub.io to extend functionality with new tools and integrations.  
+  **Tags:** `ai`, `automation`, `code`, `llm`, `sysadmin`
+* [**ZeroClaw**](https://zeroclaw.org) - Open-source, Rust-native autonomous AI agent framework designed as a zero-overhead, performance- and security-optimized alternative to OpenClaw. Provides a lightweight runtime with fast startup, modular provider/channel/tool integration, and hardened-by-default execution where capabilities must be explicitly enabled. Supports multiple LLM providers, tool orchestration, memory, workflow automation, and messaging channels such as WhatsApp, Telegram, Matrix, Signal, Discord, and Slack.  
+  **Tags:** `ai`, `automation`, `code`, `llm`, `sysadmin`
 
 ### Automation
 

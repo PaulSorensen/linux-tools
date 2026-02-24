@@ -145,8 +145,8 @@
     description: Popular code editor with a strong extension ecosystem and deep GitHub integration, including Copilot. Supports debugging, terminals, and language servers out of the box.
     url: https://code.visualstudio.com
     tags:
+      - ai
       - code
-      - copilot
       - dev
       - editor
       - vscode
@@ -630,9 +630,10 @@
   - title: Zed
     section: 🖥️ Desktop Tools
     category: Development
-    description: Open-source code editor with multibuffer editing, built-in terminal, native Git support, remote development, and Vim bindings. Includes AI-assisted coding via inline transformations and a context-aware assistant panel powered by Claude Sonnet and Zed’s own open-source LLM, Zeta.
+    description: Open-source code editor built in Rust with multibuffer editing, built-in terminal, native Git support, remote development, and optional Vim bindings. Provides integrated AI features including edit predictions, inline transformations, and a context-aware agent panel. Supports external agents such as Claude, Codex, and Gemini, a built-in Zed agent that can run multiple LLM providers (including local and hosted models), and additional integrations via the ACP (Agent Client Protocol) Registry.
     url: https://zed.dev
     tags:
+      - ai
       - code
       - dev
       - editor
@@ -1303,3 +1304,63 @@
     tags:
       - design
       - print
+  - title: Ollama
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source local LLM runtime and model manager for running, updating, and serving large language models via a simple CLI and HTTP API. Supports CPU and GPU acceleration, local model storage, and integration with editors, agents, and automation tools. Commonly used as a lightweight backend for local inference and self-hosted AI workflows.
+    url: https://ollama.com
+    tags:
+      - ai
+      - llm
+  - title: OpenClaw
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source autonomous AI agent platform that connects large language models to real-world actions through chat interfaces such as WhatsApp, Telegram, Discord, and Slack. Supports coding tasks, email and calendar management, and workflow automation by orchestrating LLM-driven tools and integrations. Supports installing additional AgentSkills from clawhub.io to extend functionality with new tools and integrations.
+    url: https://openclaw.ai
+    tags:
+      - ai
+      - automation
+      - code
+      - llm
+      - sysadmin
+  - title: ZeroClaw
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source, Rust-native autonomous AI agent framework designed as a zero-overhead, performance- and security-optimized alternative to OpenClaw. Provides a lightweight runtime with fast startup, modular provider/channel/tool integration, and hardened-by-default execution where capabilities must be explicitly enabled. Supports multiple LLM providers, tool orchestration, memory, workflow automation, and messaging channels such as WhatsApp, Telegram, Matrix, Signal, Discord, and Slack.
+    url: https://zeroclaw.org
+    tags:
+      - ai
+      - automation
+      - code
+      - llm
+      - sysadmin
+  - title: Claude Code
+    section: 🖥️ Desktop Tools
+    category: Development
+    description: AI-powered agent and CLI tool for interacting with local repositories and systems through natural language. Supports codebase-aware chat, file edits, refactoring, test generation, debugging, and general automation tasks such as scripting, system inspection, and workflow orchestration using Anthropic’s Claude models. Designed for terminal-first workflows and integration with existing development environments.
+    url: https://code.claude.com
+    tags:
+      - ai
+      - automation
+      - code
+      - dev
+      - sysadmin
+  - title: Codex
+    section: 🖥️ Desktop Tools
+    category: Development
+    description: AI coding and general task agent from OpenAI that interprets natural language to generate, modify, test, and refactor code, as well as assist with broader automation tasks. Available as a cloud-hosted software engineering agent and as a local CLI that can read, change, run, and orchestrate workflows on a codebase. Provides project-aware actions, debugging support, and task automation beyond just code generation.
+    url: https://openai.com/codex
+    tags:
+      - ai
+      - automation
+      - code
+      - dev
+      - sysadmin
+  - title: Open WebUI
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source web-based user interface for interacting with local and self-hosted large language models through a ChatGPT-like interface. Commonly used as a frontend for Ollama and other local LLM backends, providing chat history, model selection, prompt management, and multi-session conversations. Suitable for running as a self-hosted web service.
+    url: https://openwebui.com
+    tags:
+      - ai
+      - llm
