@@ -1,5 +1,5 @@
 # paulsorensen.io .gitignore
-# Last Modified : 2025/06/01 23:46:25
+# Last Modified : 2026/02/24 14:35:00
 
 # ─── PROJECT-SPECIFIC ───────────────────────────────────
 
@@ -37,6 +37,7 @@ ehthumbs_vista.db
 
 # ─── PYTHON ─────────────────────────────────────────────
 __pycache__/
+venv/
 *.py[cod]
 *.pyo
 
@@ -63,6 +64,8 @@ obj/
 *.sln.docstates
 
 # ─── IDE / TOOLING ──────────────────────────────────────
-.idea/
-.vscode/
 *.code-workspace
+.idea/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
