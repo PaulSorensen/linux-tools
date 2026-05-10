@@ -154,6 +154,12 @@
   **Tags:** `http`, `networking`, `transfer`
 * [**Nmap**](https://nmap.org) - Open-source network scanner for mapping hosts and services. Supports TCP/UDP port scanning, OS detection, version detection, traceroute, scriptable service interrogation (NSE), and firewall evasion. Works on most platforms and can output to text, XML, JSON, or grepable formats. Commonly used for auditing, inventory, and debugging.  
   **Tags:** `networking`, `scanner`, `security`
+* [**RustNet**](https://github.com/domcyrus/rustnet) - Open-source terminal-based network monitor for live inspection of TCP, UDP, and QUIC connections with per-process attribution and built-in deep packet inspection. Supports protocol detection, connection filtering, bandwidth and state visibility, GeoIP enrichment, and packet capture export. Designed as an SSH-friendly TUI for real-time troubleshooting and network forensics.  
+  **Tags:** `networking`, `security`, `sniffer`
+* [**TigerVNC**](https://tigervnc.org) - Open-source, high-performance VNC client and server for remote graphical access to Linux and other systems. Allows users to launch and interact with desktop applications on remote machines, with support for TLS encryption and advanced authentication methods. Suitable for remote administration, desktop access, and GUI-based workflows over the network.  
+  **Tags:** `networking`, `remote`, `vnc`
+* [**Wireshark**](https://www.wireshark.org) - Open-source network protocol analyzer for capturing and interactively inspecting network traffic in real time. Supports deep inspection of hundreds of protocols, packet filtering, stream reconstruction, and detailed analysis for troubleshooting, debugging, security research, and network forensics.  
+  **Tags:** `networking`, `security`, `sniffer`
 
 ### Office and Productivity
 
@@ -165,6 +171,8 @@
   **Tags:** `documents`, `office`, `pdf`, `spreadsheets`
 * [**MarkText**](https://www.marktext.cc) - Open-source Markdown editor with a clean, distraction-free interface. Supports CommonMark and GitHub Flavored Markdown, math expressions (KaTeX), diagrams (Flowchart, Sequence, Gantt), front matter, and export to HTML/PDF. Includes image pasting, themes, and editing modes like Typewriter and Focus.  
   **Tags:** `editor`, `markdown`
+* [**Obsidian**](https://obsidian.md) - Local-first note-taking app for building interconnected notes, knowledge bases, and personal documentation. Stores notes as Markdown files, giving you full control over your data. Supports a large plugin ecosystem and can sync data between devices through Obsidian Sync or community plugins like Remotely Save, including end-to-end encrypted sync to S3-compatible object storage.  
+  **Tags:** `e2ee`, `notes`, `privacy`, `sync`
 * [**OnlyOffice**](https://www.onlyoffice.com) - Latvia-based, privacy-first, open-source office suite with no telemetry. Offers encryption and integrates with platforms like Nextcloud. Offers documents, spreadsheets, presentations, and PDFs. Great support for Microsoft Office Word documents, and Excel sheets. Modern, sleek and familiar user-interface.  
   **Tags:** `documents`, `office`, `pdf`, `spreadsheets`
 * [**UltiMaker Cura**](https://github.com/ultimaker/cura) - Open-source 3D printing slicer for converting 3D models into G-code for FDM printers. Supports standard printing profiles, custom settings, model transformation tools, and preview of print paths. Works with a wide range of printers.  
@@ -195,6 +203,8 @@
   **Tags:** `disk`, `filesystem`
 * [**Fastfetch**](https://github.com/fastfetch-cli/fastfetch) - Open-source system information CLI tool inspired by Neofetch (archived in 2024). Displays system details with customizable ASCII or logo output and supports a wide range of configurations.  
   **Tags:** `sysinfo`
+* [**Nvtop**](https://github.com/syllo/nvtop) - Open-source GPU and accelerator process viewer with an interactive htop-like interface. Displays real-time usage, memory, temperature, power, clocks, fan speeds, and process-level activity across supported AMD, Intel, NVIDIA, and other accelerators. Supports multiple GPUs, interactive setup, and live per-process visibility for troubleshooting and performance analysis.  
+  **Tags:** `gpu`, `sysinfo`
 
 ### System Utilities
 
@@ -210,12 +220,18 @@
 
 ### AI
 
+* [**Llama.cpp**](https://llama-cpp.com) - Open-source, high-performance LLM inference engine written in C/C++ for running models locally with minimal dependencies. Supports quantized GGUF models, CPU and GPU acceleration across multiple backends, and includes CLI tools plus a built-in OpenAI-compatible server for self-hosted inference, embeddings, and local AI workflows.  
+  **Tags:** `ai`, `inference`, `llm`
+* [**NanoClaw**](https://nanoclaw.dev) - Open-source, ultra-lightweight personal AI agent framework designed as a small, auditable, self-hosted alternative to larger agent platforms. Provides a single-process Node.js runtime with per-agent-group container isolation, modular channel and provider installs, and secure credential handling through OneCLI Agent Vault. Supports multi-channel messaging, per-agent memory, scheduled tasks, workflow automation, and multiple providers including Claude, Ollama, Codex, and OpenRouter-based backends.  
+  **Tags:** `ai`, `automation`, `code`, `llm`, `sysadmin`
 * [**Ollama**](https://ollama.com) - Open-source local LLM runtime and model manager for running, updating, and serving large language models via a simple CLI and HTTP API. Supports CPU and GPU acceleration, local model storage, and integration with editors, agents, and automation tools. Commonly used as a lightweight backend for local inference and self-hosted AI workflows.  
-  **Tags:** `ai`, `llm`
+  **Tags:** `ai`, `inference`, `llm`
 * [**Open WebUI**](https://openwebui.com) - Open-source web-based user interface for interacting with local and self-hosted large language models through a ChatGPT-like interface. Commonly used as a frontend for Ollama and other local LLM backends, providing chat history, model selection, prompt management, and multi-session conversations. Suitable for running as a self-hosted web service.  
   **Tags:** `ai`, `llm`
 * [**OpenClaw**](https://openclaw.ai) - Open-source autonomous AI agent platform that connects large language models to real-world actions through chat interfaces such as WhatsApp, Telegram, Discord, and Slack. Supports coding tasks, email and calendar management, and workflow automation by orchestrating LLM-driven tools and integrations. Supports installing additional AgentSkills from clawhub.io to extend functionality with new tools and integrations.  
   **Tags:** `ai`, `automation`, `code`, `llm`, `sysadmin`
+* [**VLLM**](https://vllm.ai) - Open-source, high-throughput and memory-efficient LLM inference and serving engine designed for fast, cost-efficient deployment of large models. Supports continuous batching, OpenAI-compatible API serving, and acceleration across multiple hardware backends. Well suited for self-hosted inference, scalable API endpoints, and production AI workloads.  
+  **Tags:** `ai`, `inference`, `llm`
 * [**ZeroClaw**](https://zeroclaw.org) - Open-source, Rust-native autonomous AI agent framework designed as a zero-overhead, performance- and security-optimized alternative to OpenClaw. Provides a lightweight runtime with fast startup, modular provider/channel/tool integration, and hardened-by-default execution where capabilities must be explicitly enabled. Supports multiple LLM providers, tool orchestration, memory, workflow automation, and messaging channels such as WhatsApp, Telegram, Matrix, Signal, Discord, and Slack.  
   **Tags:** `ai`, `automation`, `code`, `llm`, `sysadmin`
 
@@ -408,9 +424,7 @@
   **Tags:** `apt`, `debian`, `email`, `infrastructure`, `security`
 * [**Proxmox Virtual Environment**](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.  
   **Tags:** `apt`, `containers`, `debian`, `infrastructure`, `kvm`, `lxc`, `virtualization`, `vm`
-* [**TrueNAS CORE**](https://www.truenas.com/truenas-core) - Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.  
-  **Tags:** `bsd`, `freebsd`, `media`, `nas`, `networking`, `pkg`, `storage`, `streaming`, `virtualization`, `vm`
-* [**TrueNAS SCALE**](https://www.truenas.com/truenas-scale) - Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).  
+* [**TrueNAS Community Edition**](https://www.truenas.com/truenas-scale) - Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, SMB/NFS/iSCSI services, virtual machines via KVM, LXC containers, and built-in application deployment through Docker and Docker Compose.  
   **Tags:** `apt`, `containers`, `debian`, `kubernetes`, `kvm`, `media`, `nas`, `networking`, `orchestration`, `storage`, `streaming`, `virtualization`, `vm`
 
 ### Unix-like

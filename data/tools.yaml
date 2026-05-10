@@ -866,26 +866,10 @@
       - networking
       - pkg
       - vpn
-  - title: TrueNAS CORE
+  - title: TrueNAS Community Edition
     section: 💿 Distributions
     category: Infrastructure
-    description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.
-    url: https://www.truenas.com/truenas-core
-    tags:
-      - bsd
-      - freebsd
-      - media
-      - nas
-      - networking
-      - pkg
-      - storage
-      - streaming
-      - virtualization
-      - vm
-  - title: TrueNAS SCALE
-    section: 💿 Distributions
-    category: Infrastructure
-    description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).
+    description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, SMB/NFS/iSCSI services, virtual machines via KVM, LXC containers, and built-in application deployment through Docker and Docker Compose.
     url: https://www.truenas.com/truenas-scale
     tags:
       - apt
@@ -1311,6 +1295,7 @@
     url: https://ollama.com
     tags:
       - ai
+      - inference
       - llm
   - title: OpenClaw
     section: 🛢️ Server Tools
@@ -1364,3 +1349,77 @@
     tags:
       - ai
       - llm
+  - title: Obsidian
+    section: 🖥️ Desktop Tools
+    category: Office and Productivity
+    description: Local-first note-taking app for building interconnected notes, knowledge bases, and personal documentation. Stores notes as Markdown files, giving you full control over your data. Supports a large plugin ecosystem and can sync data between devices through Obsidian Sync or community plugins like Remotely Save, including end-to-end encrypted sync to S3-compatible object storage.
+    url: https://obsidian.md
+    tags:
+      - e2ee
+      - notes
+      - privacy
+      - sync
+  - title: RustNet
+    section: 🖥️ Desktop Tools
+    category: Networking
+    description: Open-source terminal-based network monitor for live inspection of TCP, UDP, and QUIC connections with per-process attribution and built-in deep packet inspection. Supports protocol detection, connection filtering, bandwidth and state visibility, GeoIP enrichment, and packet capture export. Designed as an SSH-friendly TUI for real-time troubleshooting and network forensics.
+    url: https://github.com/domcyrus/rustnet
+    tags:
+      - networking
+      - security
+      - sniffer
+  - title: TigerVNC
+    section: 🖥️ Desktop Tools
+    category: Networking
+    description: Open-source, high-performance VNC client and server for remote graphical access to Linux and other systems. Allows users to launch and interact with desktop applications on remote machines, with support for TLS encryption and advanced authentication methods. Suitable for remote administration, desktop access, and GUI-based workflows over the network.
+    url: https://tigervnc.org
+    tags:
+      - networking
+      - remote
+      - vnc
+  - title: Wireshark
+    section: 🖥️ Desktop Tools
+    category: Networking
+    description: Open-source network protocol analyzer for capturing and interactively inspecting network traffic in real time. Supports deep inspection of hundreds of protocols, packet filtering, stream reconstruction, and detailed analysis for troubleshooting, debugging, security research, and network forensics.
+    url: https://www.wireshark.org
+    tags:
+      - networking
+      - security
+      - sniffer
+  - title: Nvtop
+    section: 🖥️ Desktop Tools
+    category: System Info
+    description: Open-source GPU and accelerator process viewer with an interactive htop-like interface. Displays real-time usage, memory, temperature, power, clocks, fan speeds, and process-level activity across supported AMD, Intel, NVIDIA, and other accelerators. Supports multiple GPUs, interactive setup, and live per-process visibility for troubleshooting and performance analysis.
+    url: https://github.com/syllo/nvtop
+    tags:
+      - gpu
+      - sysinfo
+  - title: Llama.cpp
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source, high-performance LLM inference engine written in C/C++ for running models locally with minimal dependencies. Supports quantized GGUF models, CPU and GPU acceleration across multiple backends, and includes CLI tools plus a built-in OpenAI-compatible server for self-hosted inference, embeddings, and local AI workflows.
+    url: https://llama-cpp.com
+    tags:
+      - ai
+      - inference
+      - llm
+  - title: VLLM
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source, high-throughput and memory-efficient LLM inference and serving engine designed for fast, cost-efficient deployment of large models. Supports continuous batching, OpenAI-compatible API serving, and acceleration across multiple hardware backends. Well suited for self-hosted inference, scalable API endpoints, and production AI workloads.
+    url: https://vllm.ai
+    tags:
+      - ai
+      - inference
+      - llm
+  - title: NanoClaw
+    section: 🛢️ Server Tools
+    category: AI
+    description: Open-source, ultra-lightweight personal AI agent framework designed as a small, auditable, self-hosted alternative to larger agent platforms. Provides a single-process Node.js runtime with per-agent-group container isolation, modular channel and provider installs, and secure credential handling through OneCLI Agent Vault. Supports multi-channel messaging, per-agent memory, scheduled tasks, workflow automation, and multiple providers including Claude, Ollama, Codex, and OpenRouter-based backends.
+    url: https://nanoclaw.dev
+    tags:
+      - ai
+      - automation
+      - code
+      - llm
+      - sysadmin

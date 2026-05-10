@@ -414,6 +414,27 @@
           - networking
           - scanner
           - security
+      - title: RustNet
+        description: Open-source terminal-based network monitor for live inspection of TCP, UDP, and QUIC connections with per-process attribution and built-in deep packet inspection. Supports protocol detection, connection filtering, bandwidth and state visibility, GeoIP enrichment, and packet capture export. Designed as an SSH-friendly TUI for real-time troubleshooting and network forensics.
+        url: https://github.com/domcyrus/rustnet
+        tags:
+          - networking
+          - security
+          - sniffer
+      - title: TigerVNC
+        description: Open-source, high-performance VNC client and server for remote graphical access to Linux and other systems. Allows users to launch and interact with desktop applications on remote machines, with support for TLS encryption and advanced authentication methods. Suitable for remote administration, desktop access, and GUI-based workflows over the network.
+        url: https://tigervnc.org
+        tags:
+          - networking
+          - remote
+          - vnc
+      - title: Wireshark
+        description: Open-source network protocol analyzer for capturing and interactively inspecting network traffic in real time. Supports deep inspection of hundreds of protocols, packet filtering, stream reconstruction, and detailed analysis for troubleshooting, debugging, security research, and network forensics.
+        url: https://www.wireshark.org
+        tags:
+          - networking
+          - security
+          - sniffer
     Office and Productivity:
       - title: GLabels
         description: Open-source label and barcode designer. Supports templates, custom layouts, barcodes, and data merge. Works with Dymo and other common label printers.
@@ -443,6 +464,14 @@
         tags:
           - editor
           - markdown
+      - title: Obsidian
+        description: Local-first note-taking app for building interconnected notes, knowledge bases, and personal documentation. Stores notes as Markdown files, giving you full control over your data. Supports a large plugin ecosystem and can sync data between devices through Obsidian Sync or community plugins like Remotely Save, including end-to-end encrypted sync to S3-compatible object storage.
+        url: https://obsidian.md
+        tags:
+          - e2ee
+          - notes
+          - privacy
+          - sync
       - title: OnlyOffice
         description: Latvia-based, privacy-first, open-source office suite with no telemetry. Offers encryption and integrates with platforms like Nextcloud. Offers documents, spreadsheets, presentations, and PDFs. Great support for Microsoft Office Word documents, and Excel sheets. Modern, sleek and familiar user-interface.
         url: https://www.onlyoffice.com
@@ -504,6 +533,12 @@
         url: https://github.com/fastfetch-cli/fastfetch
         tags:
           - sysinfo
+      - title: Nvtop
+        description: Open-source GPU and accelerator process viewer with an interactive htop-like interface. Displays real-time usage, memory, temperature, power, clocks, fan speeds, and process-level activity across supported AMD, Intel, NVIDIA, and other accelerators. Supports multiple GPUs, interactive setup, and live per-process visibility for troubleshooting and performance analysis.
+        url: https://github.com/syllo/nvtop
+        tags:
+          - gpu
+          - sysinfo
     System Utilities:
       - title: PowerTOP
         description: CLI tool to diagnose and reduce power consumption. Shows CPU C-states, wakeups, device power usage, and kernel/userland tunables. Interactive mode lets you toggle settings; `--auto-tune` applies recommended powersaving settings (temporary until reboot unless automated via a systemd oneshot service). Lets you cut idle draw without breaking services and can significantly reduce consumption on servers.
@@ -521,11 +556,28 @@
           - vpn
   🛢️ Server Tools:
     AI:
+      - title: Llama.cpp
+        description: Open-source, high-performance LLM inference engine written in C/C++ for running models locally with minimal dependencies. Supports quantized GGUF models, CPU and GPU acceleration across multiple backends, and includes CLI tools plus a built-in OpenAI-compatible server for self-hosted inference, embeddings, and local AI workflows.
+        url: https://llama-cpp.com
+        tags:
+          - ai
+          - inference
+          - llm
+      - title: NanoClaw
+        description: Open-source, ultra-lightweight personal AI agent framework designed as a small, auditable, self-hosted alternative to larger agent platforms. Provides a single-process Node.js runtime with per-agent-group container isolation, modular channel and provider installs, and secure credential handling through OneCLI Agent Vault. Supports multi-channel messaging, per-agent memory, scheduled tasks, workflow automation, and multiple providers including Claude, Ollama, Codex, and OpenRouter-based backends.
+        url: https://nanoclaw.dev
+        tags:
+          - ai
+          - automation
+          - code
+          - llm
+          - sysadmin
       - title: Ollama
         description: Open-source local LLM runtime and model manager for running, updating, and serving large language models via a simple CLI and HTTP API. Supports CPU and GPU acceleration, local model storage, and integration with editors, agents, and automation tools. Commonly used as a lightweight backend for local inference and self-hosted AI workflows.
         url: https://ollama.com
         tags:
           - ai
+          - inference
           - llm
       - title: Open WebUI
         description: Open-source web-based user interface for interacting with local and self-hosted large language models through a ChatGPT-like interface. Commonly used as a frontend for Ollama and other local LLM backends, providing chat history, model selection, prompt management, and multi-session conversations. Suitable for running as a self-hosted web service.
@@ -542,6 +594,13 @@
           - code
           - llm
           - sysadmin
+      - title: VLLM
+        description: Open-source, high-throughput and memory-efficient LLM inference and serving engine designed for fast, cost-efficient deployment of large models. Supports continuous batching, OpenAI-compatible API serving, and acceleration across multiple hardware backends. Well suited for self-hosted inference, scalable API endpoints, and production AI workloads.
+        url: https://vllm.ai
+        tags:
+          - ai
+          - inference
+          - llm
       - title: ZeroClaw
         description: Open-source, Rust-native autonomous AI agent framework designed as a zero-overhead, performance- and security-optimized alternative to OpenClaw. Provides a lightweight runtime with fast startup, modular provider/channel/tool integration, and hardened-by-default execution where capabilities must be explicitly enabled. Supports multiple LLM providers, tool orchestration, memory, workflow automation, and messaging channels such as WhatsApp, Telegram, Matrix, Signal, Discord, and Slack.
         url: https://zeroclaw.org
@@ -1095,22 +1154,8 @@
           - lxc
           - virtualization
           - vm
-      - title: TrueNAS CORE
-        description: Open-source NAS and storage platform based on FreeBSD and built around OpenZFS. Designed for home and SMB use, it offers advanced RAID management, snapshots, replication, and encrypted remote backups. Includes a powerful web UI, plugin support (Nextcloud, Plex, Syncthing), advanced SMB/NFS/iSCSI sharing, and virtualization via bhyve. Known for ZFS data integrity, reliability, and hardware flexibility.
-        url: https://www.truenas.com/truenas-core
-        tags:
-          - bsd
-          - freebsd
-          - media
-          - nas
-          - networking
-          - pkg
-          - storage
-          - streaming
-          - virtualization
-          - vm
-      - title: TrueNAS SCALE
-        description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, plugin support (Nextcloud, Plex, Syncthing), SMB/NFS/iSCSI services, virtual machines via KVM, and container orchestration through K3s (lightweight Kubernetes).
+      - title: TrueNAS Community Edition
+        description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, SMB/NFS/iSCSI services, virtual machines via KVM, LXC containers, and built-in application deployment through Docker and Docker Compose.
         url: https://www.truenas.com/truenas-scale
         tags:
           - apt
