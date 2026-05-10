@@ -817,7 +817,7 @@
         Title: TrueNAS Community Edition
         Description: Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, SMB/NFS/iSCSI services, virtual machines via KVM, LXC containers, and built-in application deployment through Docker and Docker Compose.
         URL: https://www.truenas.com/truenas-scale
-        Tags: apt, containers, debian, kubernetes, kvm, media, nas, networking, orchestration, storage, streaming, virtualization, vm
+        Tags: apt, containers, debian, docker, kvm, nas, networking, orchestration, storage, virtualization, vm
 
     Unix-like
 

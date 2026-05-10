@@ -1640,14 +1640,12 @@
             "apt",
             "containers",
             "debian",
-            "kubernetes",
+            "docker",
             "kvm",
-            "media",
             "nas",
             "networking",
             "orchestration",
             "storage",
-            "streaming",
             "virtualization",
             "vm"
           ]

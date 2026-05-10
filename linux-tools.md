@@ -425,7 +425,7 @@
 * [**Proxmox Virtual Environment**](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - Open-source virtualization platform built on Debian. Combines KVM for full virtualization and LXC for containers. Provides web-based management, clustering, live migration, high availability, software-defined networking, and storage support with ZFS, Ceph, and LVM.  
   **Tags:** `apt`, `containers`, `debian`, `infrastructure`, `kvm`, `lxc`, `virtualization`, `vm`
 * [**TrueNAS Community Edition**](https://www.truenas.com/truenas-scale) - Open-source NAS and storage platform based on Debian Linux and built around OpenZFS. Tailored for home and SMB environments, it supports advanced RAID configurations, snapshots, replication, and encrypted remote backups. Offers a modern web UI, SMB/NFS/iSCSI services, virtual machines via KVM, LXC containers, and built-in application deployment through Docker and Docker Compose.  
-  **Tags:** `apt`, `containers`, `debian`, `kubernetes`, `kvm`, `media`, `nas`, `networking`, `orchestration`, `storage`, `streaming`, `virtualization`, `vm`
+  **Tags:** `apt`, `containers`, `debian`, `docker`, `kvm`, `nas`, `networking`, `orchestration`, `storage`, `virtualization`, `vm`
 
 ### Unix-like
 

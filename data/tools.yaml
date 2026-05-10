@@ -874,15 +874,13 @@
     tags:
       - apt
       - debian
+      - docker
       - containers
-      - kubernetes
       - kvm
-      - media
       - nas
       - networking
       - orchestration
       - storage
-      - streaming
       - virtualization
       - vm
   - title: Rsync
