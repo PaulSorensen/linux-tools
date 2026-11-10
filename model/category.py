@@ -21,7 +21,8 @@ class Category:
     def get_by_section(self, section: str) -> List[Dict]:
         """Get categories for a specific section."""
         structure = self.get_all()
-        return structure.get(section, {}).get('categories', [])
+        section_data = structure.get(section) or {}
+        return section_data.get('categories', []) or []
     
     def add(self, section: str, category_name: str) -> bool:
         """Add a new category to a section"""
